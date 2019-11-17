@@ -13,7 +13,6 @@ export const getFilteredTrips = ({trips, filters}) => {
 
   // TO DO - filter by duration
   if(filters.duration) {
-    console.log(filters.duration.from, filters.duration.to,);
     output = output.filter(trip => filters.duration.from <= trip.days && trip.days <= filters.duration.to) ;
   }
 
