@@ -17,8 +17,6 @@ describe('Component Trip summary', () => {
     const renderedLink = component.find('.link').prop('to');
     const expectedLink = `/trip/${expectedId}`;
     expect(renderedLink).toEqual(expectedLink);
-    
-
   });
 
   it('should render correct image', () => {
