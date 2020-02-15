@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import styles from './CountrySummary.scss';
+import styles from './SeriesSummary.scss';
 import SideImage from '../../common/SideImage/SideImage';
 import DetailsBox from '../../common/DetailsBox/DetailsBox';
 import DetailsImage from '../../common/DetailsImage/DetailsImage';
@@ -9,7 +9,7 @@ import List from '../../common/List/List';
 import ListItem from '../../common/ListItem/ListItem';
 import { Row, Col } from 'react-flexbox-grid';
 
-const CountrySummary = ({ name, cover, titles, author, publisher, language, genre }) => (
+const SeriesSummary = ({ name, cover, titles, author, publisher, language, genre }) => (
 
   <Col xs={12}>
     <Link to={`/country/${name}`} className={styles.component}>
@@ -24,14 +24,14 @@ const CountrySummary = ({ name, cover, titles, author, publisher, language, genr
                 <h3 className={styles.name}>{name}</h3>
                 <h4 className={styles.region}>{author}/ {publisher}</h4>
                 <List variant='light'>
-                  <ListItem title={`<strong>Available trips:</strong> ${titles.length}`} icon='arrow-circle-right' />
+                  <ListItem title={`<strong>Available titles:</strong> ${titles.length}`} icon='arrow-circle-right' />
                 </List>
               </Col>
               <Col md={5} xl={6}>
                 <div className={styles.details}>
                   <List variant='light'>
-                    <ListItem title={`<strong>Capital:</strong> ${genre}`} icon='city' />
-                    <ListItem title={`<strong>Languages:</strong> ${language}`} icon='globe' />
+                    <ListItem title={`<strong>Genre:</strong> ${genre}`} icon='city' />
+                    <ListItem title={`<strong>Language:</strong> ${language}`} icon='globe' />
                   </List>
                 </div>
               </Col>
@@ -44,7 +44,7 @@ const CountrySummary = ({ name, cover, titles, author, publisher, language, genr
 
 );
 
-CountrySummary.propTypes = {
+SeriesSummary.propTypes = {
   name: PropTypes.string,
   cover: PropTypes.string,
   titles: PropTypes.array,
@@ -54,4 +54,4 @@ CountrySummary.propTypes = {
   genre: PropTypes.string,
 };
 
-export default CountrySummary;
+export default SeriesSummary;
