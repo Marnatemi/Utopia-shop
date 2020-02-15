@@ -45,14 +45,14 @@
   }
 }
 
-.tags {
+.genres {
   width: 80%;
   margin: ($base-size * 2) auto 0 auto;
   padding: ($base-size * 2) 0 0;
   border-top: 1px solid lighten($color-dark, 70%);
 }
 
-.tag {
+.genre {
   background: $color-secondary;
   color: $color-light;
   border-radius: $radius;

@@ -3,9 +3,9 @@ import {shallow} from 'enzyme';
 import TitleSummary from './TitleSummary';
 
 describe('Component Title summary', () => {
-  const testTags = ['tag1', 'tag2'];
+  const testGenres = ['genre1', 'genre2'];
   it('should render without crashing', () => {
-    const component = shallow(<TitleSummary name='Lorem ipsum' tags={testTags}/>);
+    const component = shallow(<TitleSummary name='Lorem ipsum' genres={testGenres}/>);
     expect(component).toBeTruthy();
     console.log(component.debug());
   });
@@ -13,7 +13,7 @@ describe('Component Title summary', () => {
   it('should render link to correct adress', () => {
     const expectedId = 'abc';
 
-    const component = shallow(<TitleSummary id={expectedId} tags={testTags}/>);
+    const component = shallow(<TitleSummary id={expectedId} genres={testGenres}/>);
     const renderedLink = component.find('.link').prop('to');
     const expectedLink = `/title/${expectedId}`;
     expect(renderedLink).toEqual(expectedLink);
@@ -22,7 +22,7 @@ describe('Component Title summary', () => {
   it('should render correct image', () => {
     const expectedAlt = 'img';
     const expectedSrc = 'image.jpg';
-    const component = shallow(<TitleSummary name={expectedAlt} image={expectedSrc} tags={testTags}/>);
+    const component = shallow(<TitleSummary name={expectedAlt} image={expectedSrc} genres={testGenres}/>);
 
     expect(component.find('img').prop('src')).toEqual(expectedSrc);
     expect(component.find('img').prop('alt')).toEqual(expectedAlt);
@@ -35,7 +35,7 @@ describe('Component Title summary', () => {
       days: 5,
     };
 
-    const component = shallow(<TitleSummary name='name' cost={props.cost} days={props.days} tags={testTags}/>);
+    const component = shallow(<TitleSummary name='name' cost={props.cost} days={props.days} genres={testGenres}/>);
 
     const renderedName = component.find('.title').text();
     const renderedDays = component.find('.details span').at(0).text();
@@ -49,28 +49,28 @@ describe('Component Title summary', () => {
     expect(() => shallow(<TitleSummary />)).toThrow();
   });
 
-  it('shouldrender correct tags arrow', () => {
-    const expectedTags = [
+  it('shouldrender correct genres arrow', () => {
+    const expectedGenres = [
       'beach',
       'ski',
       'pool',
     ];
 
-    const component = shallow(<TitleSummary tags={expectedTags}  />);
+    const component = shallow(<TitleSummary genres={expectedGenres}  />);
 
-    expect(component.find('.tag').at(0).text()).toEqual(expectedTags[0]);
-    expect(component.find('.tag').at(1).text()).toEqual(expectedTags[1]);
-    expect(component.find('.tag').at(2).text()).toEqual(expectedTags[2]);
+    expect(component.find('.genre').at(0).text()).toEqual(expectedGenres[0]);
+    expect(component.find('.genre').at(1).text()).toEqual(expectedGenres[1]);
+    expect(component.find('.genre').at(2).text()).toEqual(expectedGenres[2]);
   });
 
-  it('should not render div.tags without tags', () => {
-    const expectedTags = [
+  it('should not render div.genres without genres', () => {
+    const expectedGenres = [
       'beach',
       'ski',
       'pool',
     ];
 
-    const component = shallow(<TitleSummary tags={expectedTags} />);
+    const component = shallow(<TitleSummary genres={expectedGenres} />);
     expect(component).toBeTruthy();
 
   });
