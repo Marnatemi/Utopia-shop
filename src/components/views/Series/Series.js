@@ -9,7 +9,7 @@ import DetailsBox from '../../common/DetailsBox/DetailsBox';
 import DetailsImage from '../../common/DetailsImage/DetailsImage';
 import List from '../../common/List/List';
 import ListItem from '../../common/ListItem/ListItem';
-import TripSummary from '../../features/TripSummary/TripSummary';
+import TripSummary from '../../features/TitleSummary/TitleSummary';
 
 import {Grid, Row, Col} from 'react-flexbox-grid';
 

@@ -1,26 +1,26 @@
 /* SELECTORS */
 
-export const getAllTrips = ({trips}) => trips;
+export const getAllTitles = ({titles}) => titles;
 
-export const getFilteredTrips = ({trips, filters}) => {
-  let output = trips;
+export const getFilteredTitles = ({titles, filters}) => {
+  let output = titles;
 
   // filter by search phrase
   if(filters.searchPhrase){
     const pattern = new RegExp(filters.searchPhrase, 'i');
-    output = output.filter(trip => pattern.test(trip.name));
+    output = output.filter(title => pattern.test(title.name));
   }
 
   // TO DO - filter by duration
   if(filters.duration) {
-    output = output.filter(trip => filters.duration.from <= trip.days && trip.days <= filters.duration.to) ;
+    output = output.filter(title => filters.duration.from <= title.volumes && title.volumes <= filters.duration.to) ;
   }
 
   // DONE - filter by tags
 
   if(filters.tags){
     for (let tag of filters.tags) {
-      output =  output.filter(trip => trip.tags.indexOf(tag) >= 0);
+      output =  output.filter(title => title.tags.indexOf(tag) >= 0);
     }
   }
 
@@ -29,20 +29,20 @@ export const getFilteredTrips = ({trips, filters}) => {
   return output;
 };
 
-export const getTripById = ({trips}, tripId) => {
-  
-  
-  const filtered =  trips.filter(trip => trip.id == tripId);
+export const getTripById = ({titles}, titleId) => {
 
-  console.log('filtering trips by tripId:', tripId, filtered);
+
+  const filtered =  titles.filter(title => title.id == titleId);
+
+  console.log('filtering titles by titleId:', titleId, filtered);
   return filtered.length ? filtered[0] : {error: true};
 };
 
-export const getTripsForCountry = ({trips}, countryCode) => {
+export const getTitlesForSeries = ({titles}, seriesName) => {
 
-  const filtered = trips.filter(trip => trip.country.code == countryCode);
+  const filtered = titles.filter(title => title.series.name == seriesName);
 
-  console.log('filtering trips by countryCode:', countryCode, filtered);
+  console.log('filtering titles by seriesName:', seriesName, filtered);
   return filtered.length ? filtered : [{error: true}];
 };
 
@@ -50,7 +50,7 @@ export const getTripsForCountry = ({trips}, countryCode) => {
 
 /*
 // action name creator
-const reducerName = 'trips';
+const reducerName = 'titles';
 const createActionName = name => `app/${reducerName}/${name}`;
 
 // action types

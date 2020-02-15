@@ -1,7 +1,7 @@
 import {connect} from 'react-redux';
 import Series from './Series';
 import { getSeriesByName } from '../../../redux/allSeriesRedux';
-import { getTripsForSeries } from '../../../redux/tripsRedux';
+import { getTripsForSeries } from '../../../redux/titlesRedux';
 
 const mapStateToProps = (state, props) => {
   const series = getSeriesByName(state, props.match.params.id);
