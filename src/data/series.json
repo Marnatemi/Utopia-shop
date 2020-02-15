@@ -1,0 +1,92 @@
+[
+  {
+    "cover": "http://www.mangarden.pl/userdata/gfx/6c424574b68c8571a3361dadf9711e01.jpg",
+    "name": "OnePiece",
+    "language": "French",
+    "publisher": "Glenat",
+    "author": "Eiichiro Oda",
+    "volumes": 73,
+    "genre": "Adventure"
+  },
+  {
+    "cover": "https://media.archonia.com/images/samples/81/04/128104_s0.jpg",
+    "name": "Atack on titan",
+    "language": "English",
+    "publisher": "Kodansha comics US ",
+    "author": "Hajime Isayama",
+    "volumes": 30,
+    "genre": "Adventure"
+  },
+  {
+    "cover": "http://www.mangarden.pl/userdata/gfx/6fffc2b477868da40e879aef42441b39.jpg",
+    "name": "Silver Spoon",
+    "language": "Polish",
+    "publisher": "Waneko",
+    "author": "Hiromu Arakawa",
+    "volumes": 11,
+    "genre": "Adventure"
+  },
+  {
+    "cover": "http://www.mangarden.pl/userdata/gfx/5d86ddc03eb34d20306756a384501fbe.jpg",
+    "name": "Monster",
+    "language": "Polish",
+    "publisher": "JPF",
+    "author": "Naoki Urasawa",
+    "volumes": 9,
+    "genre": "Triller"
+  },
+  {
+    "cover": "https://media.archonia.com/images/samples/86/95/208695_s0.jpg",
+    "name": "All You Need Is Kill",
+    "language": "English",
+    "publisher": "Viz Comics ",
+    "author": "Ryosuke Takeuchi",
+    "volumes": 2,
+    "genre": "Science Fiction"
+  },
+  {
+    "cover": "https://media.archonia.com/images/items/99/89/39989.jpg",
+    "name": "Death note",
+    "language": "French",
+    "publisher": "Kana ",
+    "author": "Takeshi Obata",
+    "volumes": 12,
+    "genre": "Thriller"
+  },
+  {
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/88/Uzumaki.jpg",
+    "name": "Uzumaki",
+    "language": "Japanese",
+    "publisher": "Shogakukan",
+    "author": "Junji Ito",
+    "volumes": 1,
+    "genre": "Horror"
+  },
+  {
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/01/Yotsuba%26-vol1cover-jp.png",
+    "name": "Yotsuba!",
+    "language": "Japanese",
+    "publisher": "ASCII Media Works",
+    "author": "Kiyohiko Azuma",
+    "volumes": 14,
+    "genre": "Comedy"
+  },
+  {
+    "cover": "http://www.mangarden.pl/userdata/gfx/bd3fce594fcd24e12373ed5383916aee.jpg",
+    "name": "Opowieść Panny Młodej",
+    "language": "Polish",
+    "publisher": "Studio JG",
+    "author": "Kaoru Mori",
+    "volumes": 11,
+    "genre": "History"
+  },
+  {
+    "cover": "https://media.archonia.com/images/samples/61/07/356107_s0.jpg",
+    "name": "WHAT'S MICHAEL?",
+    "language": "English",
+    "publisher": "Dark horse ",
+    "author": "Makoto Kobayashi",
+    "volumes": 6,
+    "genre": "Comedy"
+  }
+]
