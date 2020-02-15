@@ -1,11 +1,11 @@
 import {connect} from 'react-redux';
 import Title from './Title';
 import {getTitleById} from '../../../redux/titlesRedux';
-import {getSeriesByCode} from '../../../redux/allSeriesRedux';
+import {getSeriesByName} from '../../../redux/allSeriesRedux';
 
 const mapStateToProps = (state, props) => {
   const title = getTitleById(state, props.match.params.id);
-  const series = getSeriesByCode(state, title.series.name);
+  const series = getSeriesByName(state, title.series.name);
 
   return {
     ...title,

@@ -1,13 +1,13 @@
 /* SELECTORS */
 
-export const getAllTags = ({tags}) => tags;
-export const getTagByName = ({tags}, tagName) => tags[tagName];
+export const getAllGenres = ({genres}) => genres;
+export const getGenreByName = ({genres}, genreName) => genres[genreName];
 
 /* ACTIONS */
 
 /*
 // action name creator
-const reducerName = 'tags';
+const reducerName = 'genres';
 const createActionName = name => `app/${reducerName}/${name}`;
 
 // action types

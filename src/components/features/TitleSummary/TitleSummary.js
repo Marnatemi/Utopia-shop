@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import styles from './TitleSummary.scss';
 import {Col} from 'react-flexbox-grid';
 
-const TitleSummary = ({id, image, name, cost, volumes, tags}) => (
+const TitleSummary = ({id, image, name, cost, volumes, genres}) => (
   <Col xs={12} sm={6} lg={4} className={styles.column}>
     <Link to={`/title/${id}`} className={styles.link}>
       <article className={styles.component}>
@@ -14,9 +14,9 @@ const TitleSummary = ({id, image, name, cost, volumes, tags}) => (
           <span>{volumes}</span>
           <span>from {cost}</span>
         </div>
-        <div className={styles.tags}>
-          {tags.map(tag => (
-            <span className={styles.tag} key={tag.toString()}>{tag}</span>
+        <div className={styles.genres}>
+          {genres.map(genre => (
+            <span className={styles.genre} key={genre.toString()}>{genre}</span>
           ))}
         </div>
       </article>
@@ -31,7 +31,7 @@ TitleSummary.propTypes = {
   intro: PropTypes.string,
   cost: PropTypes.string,
   volumes: PropTypes.number,
-  tags: PropTypes.array.isRequired,
+  genres: PropTypes.array.isRequired,
 };
 
 export default TitleSummary;

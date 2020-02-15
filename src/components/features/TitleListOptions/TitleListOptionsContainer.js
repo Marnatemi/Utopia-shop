@@ -1,10 +1,10 @@
 import {connect} from 'react-redux';
-import TripListOptions from './TripListOptions';
-import {getAllTags} from '../../../redux/tagsRedux';
-import {getAllFilters, changeSearchPhrase, changeDuration, addTag, removeTag} from '../../../redux/filtersRedux';
+import TitleListOptions from './TitleListOptions';
+import {getAllGenres} from '../../../redux/genresRedux';
+import {getAllFilters, changeSearchPhrase, changeDuration, addGenre, removeGenre} from '../../../redux/filtersRedux';
 
 const mapStateToProps = state => ({
-  tags: getAllTags(state),
+  genres: getAllGenres(state),
   filters: getAllFilters(state),
 });
 
@@ -12,10 +12,10 @@ const mapDispatchToProps = dispatch => ({
   changeSearchPhrase: phrase => dispatch(changeSearchPhrase(phrase)),
   // TODO - add more dispatchers for other filters
   changeDuration: (type, value) => dispatch(changeDuration({[type]: value})),
-  addTag: tag => dispatch(addTag(tag)),
-  removeTag: tag => dispatch(removeTag(tag)), 
+  addGenre: genre => dispatch(addGenre(genre)),
+  removeGenre: genre => dispatch(removeGenre(genre)),
 
 
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(TripListOptions);
+export default connect(mapStateToProps, mapDispatchToProps)(TitleListOptions);

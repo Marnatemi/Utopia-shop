@@ -1,20 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './TripListOptions.scss';
+import styles from './TitleListOptions.scss';
 
 import {Row, Col} from 'react-flexbox-grid';
 
-class TripListOptions extends React.Component {
-  handleTags(tag, checked){
+class TitleListOptions extends React.Component {
+  handleGenres(genre, checked){
     if(checked) {
-      console.log('Adding tag', tag);
+      console.log('Adding genre', genre);
       // TODO - use action dispatcher from props
-      this.props.addTag(tag);
+      this.props.addGenre(genre);
 
     } else {
-      console.log('Removing tag', tag);
+      console.log('Removing genre', genre);
       // TODO - use action dispatcher from props
-      this.props.removeTag(tag);
+      this.props.removeGenre(genre);
     }
   }
 
@@ -29,7 +29,7 @@ class TripListOptions extends React.Component {
   }
 
   render(){
-    const {tags, filters} = this.props;
+    const {genres, filters} = this.props;
     return (
       <div className={styles.component}>
         <Row around="lg">
@@ -43,24 +43,24 @@ class TripListOptions extends React.Component {
           <Col lg={4}>
             <div className={styles.filter}>
               <label>
-                Duration from:
-                <input className={`${styles.input} ${styles.number}`} type='number' value={filters.duration.from} min='1' max='14' onChange={event => this.handleDuration('from', event.currentTarget.value)} />
+                Volumes from:
+                <input className={`${styles.input} ${styles.number}`} type='number' value={filters.duration.from} min='1' max='100' onChange={event => this.handleDuration('from', event.currentTarget.value)} />
               </label>
               <label>
                 to:
-                <input className={`${styles.input} ${styles.number}`} type='number' value={filters.duration.to} min='1' max='14' onChange={event => this.handleDuration('to', event.currentTarget.value)} />
+                <input className={`${styles.input} ${styles.number}`} type='number' value={filters.duration.to} min='1' max='100' onChange={event => this.handleDuration('to', event.currentTarget.value)} />
               </label>
             </div>
           </Col>
           <Col lg={4}>
             <div className={styles.filter}>
               <details>
-                <summary className={styles.toggle}>Filter by tags</summary>
+                <summary className={styles.toggle}>Filter by Genre</summary>
                 <div className={styles.dropdown}>
-                  {Object.keys(tags).map(tag => (
-                    <label key={tag} className={styles.option}>
-                      <input type='checkbox' checked={filters.tags.indexOf(tag) > -1} onChange={event => this.handleTags(tag, event.currentTarget.checked)} />
-                      {tag}
+                  {Object.keys(genres).map(genre => (
+                    <label key={genre} className={styles.option}>
+                      <input type='checkbox' checked={filters.genres.indexOf(genre) > -1} onChange={event => this.handleGenres(genre, event.currentTarget.checked)} />
+                      {genre}
                     </label>
                   ))}
                 </div>
@@ -73,13 +73,13 @@ class TripListOptions extends React.Component {
   }
 }
 
-TripListOptions.propTypes = {
-  tags: PropTypes.object,
+TitleListOptions.propTypes = {
+  genres: PropTypes.object,
   filters: PropTypes.object,
   changeSearchPhrase: PropTypes.func,
   changeDuration: PropTypes.func,
-  addTag: PropTypes.func,
-  removeTag: PropTypes.func,
+  addGenre: PropTypes.func,
+  removeGenre: PropTypes.func,
 };
 
-export default TripListOptions;
+export default TitleListOptions;

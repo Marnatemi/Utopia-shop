@@ -10,7 +10,7 @@ import Titles from './components/views/Titles/TitlesContainer';
 import Title from './components/views/Title/TitleContainer';
 import Series from './components/views/Series/SeriesContainer';
 import AllSeries from './components/views/AllSeries/AllSeriesContainer';
-import Authors from './components/views/Authors/AuthorsContainer';
+import Regions from './components/views/Regions/RegionsContainer';
 import Info from './components/views/Info/Info';
 import NotFound from './components/views/NotFound/NotFound';
 
@@ -55,7 +55,7 @@ class App extends React.Component {
             <Route exact path='/' component={Home} />
             <Route exact path='/titles' component={Titles} />
             <Route exact path='/allSeries' component={AllSeries} />
-            <Route exact path='/regions' component={Authors} />
+            <Route exact path='/regions' component={Regions} />
             <Route exact path='/info' component={Info} />
             <Route exact path='/title/:id' component={Title} />
             <Route exact path='/series/:id' component={Series} />
