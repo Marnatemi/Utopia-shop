@@ -6,39 +6,39 @@ import PropTypes from 'prop-types';
 import MainLayout from './components/layout/MainLayout/MainLayout';
 
 import Home from './components/views/Home/Home';
-import Trips from './components/views/Trips/TripsContainer';
-import Trip from './components/views/Trip/TripContainer';
-import Country from './components/views/Country/CountryContainer';
-import Countries from './components/views/Countries/CountriesContainer';
-import Regions from './components/views/Regions/RegionsContainer';
+import Titles from './components/views/Titles/TitlesContainer';
+import Title from './components/views/Title/TitleContainer';
+import Series from './components/views/Series/SeriesContainer';
+import AllSeries from './components/views/AllSeries/AllSeriesContainer';
+import Authors from './components/views/Authors/AuthorsContainer';
 import Info from './components/views/Info/Info';
 import NotFound from './components/views/NotFound/NotFound';
 
-import parseTrips from './utils/parseTrips';
+import parseTitles from './utils/parseTitles';
 import {setMultipleStates} from './redux/globalRedux';
 import {AnimatedSwitch} from 'react-router-transition';
 import styles from './App.scss';
 
 class App extends React.Component {
   static propTypes = {
-    trips: PropTypes.array,
+    titles: PropTypes.array,
     setStates: PropTypes.func,
   }
 
   constructor(props){
     super(props);
-    // parse trips when App is first created
-    parseTrips(this.props.trips, this.props.setStates);
+    // parse titles when App is first created
+    parseTitles(this.props.titles, this.props.setStates);
   }
 
   componentDidUpdate(prevProps){
-    if(prevProps.trips != this.props.trips){
-      // parse trips again if they changed
-      parseTrips(this.props.trips, this.props.setStates);
+    if(prevProps.titles != this.props.titles){
+      // parse titles again if they changed
+      parseTitles(this.props.titles, this.props.setStates);
     }
   }
 
-  
+
 
   render(){
 
@@ -53,12 +53,12 @@ class App extends React.Component {
             location={location}
             className ={styles.switchWrapper}>
             <Route exact path='/' component={Home} />
-            <Route exact path='/trips' component={Trips} />
-            <Route exact path='/countries' component={Countries} />
-            <Route exact path='/regions' component={Regions} />
+            <Route exact path='/titles' component={Titles} />
+            <Route exact path='/allSeries' component={AllSeries} />
+            <Route exact path='/regions' component={Authors} />
             <Route exact path='/info' component={Info} />
-            <Route exact path='/trip/:id' component={Trip} />
-            <Route exact path='/country/:id' component={Country} />
+            <Route exact path='/title/:id' component={Title} />
+            <Route exact path='/series/:id' component={Series} />
             <Route path='*' component={NotFound} />
           </AnimatedSwitch>
         </MainLayout>
@@ -68,7 +68,7 @@ class App extends React.Component {
 }
 
 const mapStateToProps = state => ({
-  trips: state.trips,
+  titles: state.titles,
 });
 
 const mapDispatchToProps = dispatch => ({

@@ -1,7 +1,7 @@
 [
   {
     "id": "5cc1d10130dfa407e2e54e20",
-    "country": {
+    "series": {
       "name": "One Piece",
       "author": "Eiichiro Oda"
     },
@@ -17,7 +17,7 @@
   },
   {
     "id": "5cc1d1014c75f672e46ef6d7",
-    "country": {
+    "series": {
       "name": "One Piece",
       "author": "Eiichiro Oda"
     },
@@ -33,7 +33,7 @@
   },
   {
     "id": "5cc1d1015f3c5f5f14384b15",
-    "country": {
+    "series": {
       "name": "One Piece",
       "author": "Eiichiro Oda"
     },
@@ -49,7 +49,7 @@
   },
   {
     "id": "5cc1d10107e2be6064ff9129",
-    "country": {
+    "series": {
       "name": "One Piece",
       "author": "Eiichiro Oda"
     },
@@ -65,7 +65,7 @@
   },
   {
     "id": "5cc1d101b5c152e861b59e67",
-    "country": {
+    "series": {
       "name": "One Piece",
       "author": "Eiichiro Oda"
     },
@@ -81,7 +81,7 @@
   },
   {
     "id": "5cc1d10181a30e85c8d9ad4a",
-    "country": {
+    "series": {
       "name": "WHAT'S MICHAEL?",
       "author": "Makoto Kobayashi"
     },
@@ -97,7 +97,7 @@
   },
   {
     "id": "5cc1d1013091dba04d042a96",
-    "country": {
+    "series": {
       "name": "Atack on titan",
       "author": "Hajime Isayama"
     },
@@ -113,7 +113,7 @@
   },
   {
     "id": "5cc1d101d4646f89f3e65aa9",
-    "country": {
+    "series": {
       "name": "Atack on titan",
       "author": "Hajime Isayama"
     },
@@ -129,7 +129,7 @@
   },
   {
     "id": "5cc1d1016367ab269dad2216",
-    "country": {
+    "series": {
       "name": "Atack on titan",
       "author": "Hajime Isayama"
     },
@@ -145,7 +145,7 @@
   },
   {
     "id": "5cc1d101f5472008227158cf",
-    "country": {
+    "series": {
       "name": "Silver Spoon",
       "author": "Hiromu Arakawa"
     },
@@ -161,7 +161,7 @@
   },
   {
     "id": "5cc1d101d95c0888745ef15e",
-    "country": {
+    "series": {
       "name": "Silver Spoon",
       "author": "Hiromu Arakawa"
     },
@@ -177,7 +177,7 @@
   },
   {
     "id": "5cc1d101d1d772361a852357",
-    "country": {
+    "series": {
       "name": "Silver Spoon",
       "author": "Hiromu Arakawa"
     },
@@ -193,7 +193,7 @@
   },
   {
     "id": "5cc1d10162f0f1af674aaf17",
-    "country": {
+    "series": {
       "name": "Monster",
       "author": "Naoki Urasawa"
     },
@@ -209,7 +209,7 @@
   },
   {
     "id": "5cc1d101d15304d9eaa053a4",
-    "country": {
+    "series": {
       "name": "Monster",
       "author": "Naoki Urasawa"
     },
@@ -225,7 +225,7 @@
   },
   {
     "id": "5cc1d101ed390106eadbee81",
-    "country": {
+    "series": {
       "name": "Uzumaki",
       "author": "Junji Ito"
     },
@@ -241,7 +241,7 @@
   },
   {
     "id": "5cc1d10196640709075d389e",
-    "country": {
+    "series": {
       "name": "All You Need Is Kill",
       "author": "Ryosuke Takeuchi"
     },
@@ -257,7 +257,7 @@
   },
   {
     "id": "5cc1d101bdf33c2d65ee7184",
-    "country": {
+    "series": {
       "name": "Yotsuba!",
       "author": "Kiyohiko Azuma"
     },
@@ -273,7 +273,7 @@
   },
   {
     "id": "5cc1d1011736309a788fd36d",
-    "country": {
+    "series": {
       "name": "Yotsuba!",
       "author": "Kiyohiko Azuma"
     },
@@ -289,7 +289,7 @@
   },
   {
     "id": "5cc1d10191ea16c92659d4d4",
-    "country": {
+    "series": {
       "name": "Opowieść Panny Młodej",
       "author": "Kaoru Mori"
     },

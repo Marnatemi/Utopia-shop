@@ -13,7 +13,7 @@ import TripSummary from '../../features/TripSummary/TripSummary';
 
 import {Grid, Row, Col} from 'react-flexbox-grid';
 
-const Country = ({name, author, publisher, language, genre, volumes, titles}) => (
+const Series = ({name, author, publisher, language, genre, volumes, titles}) => (
   <Section variant='has-hero'>
     <Hero variant='small' titleText={`${name}`} imageSrc={`https://loremflickr.com/1000/600/${name},landscape/all`} />
     <Grid>
@@ -49,7 +49,7 @@ const Country = ({name, author, publisher, language, genre, volumes, titles}) =>
   </Section>
 );
 
-Country.propTypes = {
+Series.propTypes = {
   name: PropTypes.string,
   genre: PropTypes.string,
   language: PropTypes.string,
@@ -59,4 +59,4 @@ Country.propTypes = {
   titles: PropTypes.array,
 };
 
-export default Country;
+export default Series;

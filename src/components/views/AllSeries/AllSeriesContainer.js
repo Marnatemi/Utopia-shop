@@ -1,5 +1,5 @@
 import {connect} from 'react-redux';
-import Series from './Series';
+import Series from './AllSeries';
 import {getAllSeries} from '../../../redux/seriesRedux';
 
 const mapStateToProps = state => ({

@@ -11,11 +11,11 @@ import DetailsImage from '../../common/DetailsImage/DetailsImage';
 import List from '../../common/List/List';
 import ListItem from '../../common/ListItem/ListItem';
 import OrderForm from '../../features/OrderForm/OrderFormContainer';
-import styles from './Trip.scss';
+import styles from './Title.scss';
 import {Grid, Row, Col} from 'react-flexbox-grid';
 
-const Trip = ({error, id, name, image, cost, days, description, country, intro}) => {
-  
+const Title = ({error, id, name, image, cost, allSeries, description, series, intro}) => {
+
   if(error) return <NotFound />;
   else return (
     <Section>
@@ -33,7 +33,7 @@ const Trip = ({error, id, name, image, cost, days, description, country, intro})
                 {HTMLParser(intro)}
               </div>
               <List variant='light'>
-                <ListItem title={`<strong>Duration:</strong> ${days} days`} icon='calendar-alt' />
+                <ListItem title={`<strong>Series:</strong> ${allSeries} volumes`} icon='calendar-alt' />
                 <ListItem title={`<strong>Price:</strong> from ${cost}`} icon='money-bill-wave' />
               </List>
             </Col>
@@ -43,33 +43,33 @@ const Trip = ({error, id, name, image, cost, days, description, country, intro})
       <Grid>
         <Row>
           <Col xs={12}>
-            <PageTitle text='Trip options' />
-            <OrderForm tripCost={cost} tripName={name} tripId={id} countryCode={country.currencies[0].code}/>
+            <PageTitle text='Title options' />
+            <OrderForm titleCost={cost} titleName={name} titleId={id} seriesName={series.name}/>
           </Col>
         </Row>
       </Grid>
       <Grid>
         <Row>
           <Col xs={12}>
-            <PageTitle text='Trip details' />
+            <PageTitle text='Title details' />
             {HTMLParser(description)}
           </Col>
         </Row>
       </Grid>
       <Grid>
-        <PageTitle text={`About ${country.name}`} />
+        <PageTitle text={`About ${series.name}`} />
       </Grid>
       <DetailsBox>
         <DetailsImage>
-          <SideImage source={country.flag} />
+          <SideImage source={series.flag} />
         </DetailsImage>
         <Grid>
           <Row>
             <Col md={12} lg={4}>
               <List variant='light'>
-                <ListItem title={`<strong>Capital:</strong> ${country.capital}`} icon='city' />
-                <ListItem title={`<strong>Population:</strong> ${country.population / 1000000} millions`} icon='users' />
-                <ListItem title={`<strong>Currency:</strong> ${country.currencies[0].symbol} (${country.currencies[0].name})`} icon='money-bill-wave' />
+                <ListItem title={`<strong>Author:</strong> ${series.author}`} icon='city' />
+                <ListItem title={`<strong>Publisher:</strong> ${series.publisher} `} icon='users' />
+                <ListItem title={`<strong>Language:</strong> ${series.language}`} icon='money-bill-wave' />
               </List>
             </Col>
           </Row>
@@ -79,14 +79,14 @@ const Trip = ({error, id, name, image, cost, days, description, country, intro})
   );
 };
 
-Trip.propTypes = {
+Title.propTypes = {
   name: PropTypes.string,
   id: PropTypes.string,
   image: PropTypes.string,
   cost: PropTypes.string,
-  days: PropTypes.number,
+  allSeries: PropTypes.number,
   description: PropTypes.string,
-  country: PropTypes.object,
+  series: PropTypes.object,
 };
 
-export default Trip;
+export default Title;

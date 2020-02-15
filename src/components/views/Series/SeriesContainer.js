@@ -1,16 +1,16 @@
 import {connect} from 'react-redux';
-import Country from './Country';
-import { getCountryByCode } from '../../../redux/countriesRedux';
-import { getTripsForCountry } from '../../../redux/tripsRedux';
+import Series from './Series';
+import { getSeriesByName } from '../../../redux/allSeriesRedux';
+import { getTripsForSeries } from '../../../redux/tripsRedux';
 
 const mapStateToProps = (state, props) => {
-  const country = getCountryByCode(state, props.match.params.id);
-  const trips = getTripsForCountry(state, country.alpha3Code);
+  const series = getSeriesByName(state, props.match.params.id);
+  const trips = getTripsForSeries(state, series.name);
 
   return {
-    ...country,
+    ...series,
     trips,
   };
 };
 
-export default connect(mapStateToProps)(Country);
+export default connect(mapStateToProps)(Series);

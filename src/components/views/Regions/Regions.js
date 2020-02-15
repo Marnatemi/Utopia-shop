@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Section from '../../layout/Section/Section';
 import PageTitle from '../../common/PageTitle/PageTitle';
-import CountrySummary from '../../features/CountrySummary/CountrySummary';
+import CountrySummary from '../../features/SeriesSummary/SeriesSummary';
 
 import styles from './Regions.scss';
 import {Grid, Row} from 'react-flexbox-grid';
