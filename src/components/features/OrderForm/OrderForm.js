@@ -10,13 +10,13 @@ import {formatPrice} from '../../../utils/formatPrice';
 import {calculateTotal} from '../../../utils/calculateTotal';
 
 
-const sendOrder = (tripId, tripName, countryCode, options, tripCost) => {
-  const totalCost = formatPrice(calculateTotal(tripCost, options));
+const sendOrder = (titleId, titleName, seriesName, options, titleCost) => {
+  const totalCost = formatPrice(calculateTotal(titleCost, options));
 
   const payload = {
-    tripId,
-    tripName,
-    countryCode,
+    titleId,
+    titleName,
+    seriesName,
     ...options,
     totalCost,
   };
@@ -44,7 +44,7 @@ const sendOrder = (tripId, tripName, countryCode, options, tripCost) => {
 
 const OrderForm = props => {
 
-  const {tripCost, options, setOrderOption, tripName, tripId, countryCode} = props;
+  const {titleCost, options, setOrderOption, titleName, titleId, seriesName} = props;
   console.log('OrderForm',props);
 
   return <Row>
@@ -53,18 +53,18 @@ const OrderForm = props => {
         <OrderOption currentValue={options[option.id]} setOrderOption={setOrderOption} {...option}/>
       </Col>))}
     <Col xs={12}>
-      <OrderSummary tripCost={tripCost} orderOptions={options}/>
+      <OrderSummary titleCost={titleCost} orderOptions={options}/>
     </Col>
-    <Button onClick={() => sendOrder(tripId, tripName, countryCode, options, tripCost)}>Order now!</Button>
+    <Button onClick={() => sendOrder(titleId, titleName, seriesName, options, titleCost)}>Order now!</Button>
   </Row>;
 
 };
 
 OrderForm.propTypes = {
-  tripCost: PropTypes.string,
-  tripName: PropTypes.string,
-  countryCode: PropTypes.string,
-  tripId: PropTypes.string,
+  titleCost: PropTypes.string,
+  titleName: PropTypes.string,
+  seriesName: PropTypes.string,
+  titleId: PropTypes.string,
   options: PropTypes.object,
   setOrderOption: PropTypes.func,
 };
