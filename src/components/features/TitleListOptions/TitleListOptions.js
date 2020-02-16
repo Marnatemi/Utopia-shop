@@ -18,10 +18,10 @@ class TitleListOptions extends React.Component {
     }
   }
 
-  handleDuration(type, value){
-    console.log('Changing duration', type, value);
+  handleVolumes(type, value){
+    console.log('Changing volumes', type, value);
     // TODO - use action dispatcher from props
-    this.props.changeDuration(type, value);
+    this.props.changeVolumes(type, value);
   }
 
   handleSearch(phrase){
@@ -44,11 +44,11 @@ class TitleListOptions extends React.Component {
             <div className={styles.filter}>
               <label>
                 Volumes from:
-                <input className={`${styles.input} ${styles.number}`} type='number' value={filters.duration.from} min='1' max='100' onChange={event => this.handleDuration('from', event.currentTarget.value)} />
+                <input className={`${styles.input} ${styles.number}`} type='number' value={filters.volumes.from} min='1' max='100' onChange={event => this.handleVolumes('from', event.currentTarget.value)} />
               </label>
               <label>
                 to:
-                <input className={`${styles.input} ${styles.number}`} type='number' value={filters.duration.to} min='1' max='100' onChange={event => this.handleDuration('to', event.currentTarget.value)} />
+                <input className={`${styles.input} ${styles.number}`} type='number' value={filters.volumes.to} min='1' max='100' onChange={event => this.handleVolumes('to', event.currentTarget.value)} />
               </label>
             </div>
           </Col>
@@ -77,7 +77,7 @@ TitleListOptions.propTypes = {
   genres: PropTypes.object,
   filters: PropTypes.object,
   changeSearchPhrase: PropTypes.func,
-  changeDuration: PropTypes.func,
+  changeVolumes: PropTypes.func,
   addGenre: PropTypes.func,
   removeGenre: PropTypes.func,
 };

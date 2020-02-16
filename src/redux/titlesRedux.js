@@ -11,16 +11,16 @@ export const getFilteredTitles = ({titles, filters}) => {
     output = output.filter(title => pattern.test(title.name));
   }
 
-  // TO DO - filter by duration
-  if(filters.duration) {
-    output = output.filter(title => filters.duration.from <= title.volumes && title.volumes <= filters.duration.to) ;
+  // TO DO - filter by volumes
+  if(filters.volumes) {
+    output = output.filter(title => filters.volumes.from <= title.volumes && title.volumes <= filters.volumes.to) ;
   }
 
-  // DONE - filter by tags
+  // DONE - filter by genres
 
-  if(filters.tags){
-    for (let tag of filters.tags) {
-      output =  output.filter(title => title.tags.indexOf(tag) >= 0);
+  if(filters.genres){
+    for (let genre of filters.genres) {
+      output =  output.filter(title => title.genres.indexOf(genre) >= 0);
     }
   }
 
@@ -29,7 +29,7 @@ export const getFilteredTitles = ({titles, filters}) => {
   return output;
 };
 
-export const getTripById = ({titles}, titleId) => {
+export const getTitleById = ({titles}, titleId) => {
 
 
   const filtered =  titles.filter(title => title.id == titleId);

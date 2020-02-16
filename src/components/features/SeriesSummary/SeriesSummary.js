@@ -12,6 +12,7 @@ import { Row, Col } from 'react-flexbox-grid';
 const SeriesSummary = ({ name, cover, titles, author, publisher, language, genre }) => (
 
   <Col xs={12}>
+    { console.log('SS', author)}
     <Link to={`/country/${name}`} className={styles.component}>
       <DetailsBox variant='small light'>
         <DetailsImage variant='left'>
@@ -24,7 +25,7 @@ const SeriesSummary = ({ name, cover, titles, author, publisher, language, genre
                 <h3 className={styles.name}>{name}</h3>
                 <h4 className={styles.region}>{author}/ {publisher}</h4>
                 <List variant='light'>
-                  <ListItem title={`<strong>Available titles:</strong> ${titles.length}`} icon='arrow-circle-right' />
+                  <ListItem title={`<strong>Available volumes:</strong> ${titles.length}`} icon='arrow-circle-right' />
                 </List>
               </Col>
               <Col md={5} xl={6}>

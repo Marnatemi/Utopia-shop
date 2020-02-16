@@ -61,7 +61,7 @@ const Title = ({error, id, name, image, cost, allSeries, description, series, in
       </Grid>
       <DetailsBox>
         <DetailsImage>
-          <SideImage source={series.flag} />
+          <SideImage source={series.cover} />
         </DetailsImage>
         <Grid>
           <Row>

@@ -1,13 +1,13 @@
 import {connect} from 'react-redux';
-import Regions from './Regions';
-import { getAllRegions } from '../../../redux/regionsRedux';
-import { getAllSubregions } from '../../../redux/subregionsRedux';
-import { getAllCountries } from '../../../redux/countriesRedux';
+import Authors from './Authors';
+import { getAllAuthors } from '../../../redux/authorsRedux';
+import { getAllPublishers } from '../../../redux/publishersRedux';
+import { getAllSeries } from '../../../redux/allSeriesRedux';
 
 const mapStateToProps = state => ({
-  regions: getAllRegions(state),
-  subregions: getAllSubregions(state),
-  countries: getAllCountries(state),
+  authors: getAllAuthors(state),
+  publishers: getAllPublishers(state),
+  series: getAllSeries(state),
 });
 
-export default connect(mapStateToProps)(Regions);
+export default connect(mapStateToProps)(Authors);

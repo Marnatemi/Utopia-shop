@@ -1,12 +1,12 @@
-import series from '../data/series.json';
+import allSeries from '../data/allSeries.json';
 import pricing from '../data/pricing.json';
 
 const parseTitles = (titles, setStates) => {
   const newState = {
-    series: {},
+    allSeries: {},
     authors: {},
     publishers: {},
-    tags: {},
+    genres: {},
     order: {
       title: null,
       email: '',
@@ -17,48 +17,48 @@ const parseTitles = (titles, setStates) => {
   for(let title of titles){
 
     /* add series to newState.series */
-    if(typeof(newState.series[title.series.name]) == 'undefined'){
-      const seriesDetails = series.filter(item => item.name == title.series.name)[0] || {};
-      newState.series[title.series.name] = JSON.parse(JSON.stringify(seriesDetails));
-      newState.series[title.series.name].titles = [title.id];
+    if(typeof(newState.allSeries[title.series.name]) == 'undefined'){
+      const seriesDetails = allSeries.filter(item => item.name == title.series.name)[0] || {};
+      newState.allSeries[title.series.name] = JSON.parse(JSON.stringify(seriesDetails));
+      newState.allSeries[title.series.name].titles = [title.id];
     } else {
-      newState.series[title.series.name].titles.push(title.id);
+      newState.allSeries[title.series.name].titles.push(title.id);
     }
 
-    /* add all tags to newState.tags */
-    for(let tag of title.tags){
-      if(typeof(newState.tags[tag]) == 'undefined'){
-        newState.tags[tag] = {titles: [title.id]};
+    /* add all genres to newState.genres */
+    for(let genre of title.genres){
+      if(typeof(newState.genres[genre]) == 'undefined'){
+        newState.genres[genre] = {titles: [title.id]};
       } else {
-        newState.tags[tag].titles.push(title.id);
+        newState.genres[genre].titles.push(title.id);
       }
     }
   }
 
-  for(let seriesname in newState.series){
-    const series = newState.series[seriesname];
+  for(let seriesName in newState.series){
+    const series = newState.allSeries[seriesName];
 
     /* add author to newState.authors */
     if(typeof(newState.authors[series.author]) == 'undefined'){
       newState.authors[series.author] = {
-        series: [series.name],
+        allSeries: [series.name],
         publishers: [series.publisher],
       };
     } else if(newState.authors[series.author].publishers.indexOf(series.publisher) == -1) {
       newState.authors[series.author].publishers.push(series.publisher);
-      newState.authors[series.author].series.push(series.name);
-    } else if(newState.authors[series.author].series.indexOf(series.name) == -1) {
-      newState.authors[series.author].series.push(series.name);
+      newState.authors[series.author].allSeries.push(series.name);
+    } else if(newState.authors[series.author].allSeries.indexOf(series.name) == -1) {
+      newState.authors[series.author].allSeries.push(series.name);
     }
 
     /* add publisher to newState.publishers */
     if(typeof(newState.publishers[series.publisher]) == 'undefined'){
       newState.publishers[series.publisher] = {
         author: series.author,
-        series: [series.name],
+        allSeries: [series.name],
       };
-    } else if(newState.publishers[series.publisher].series.indexOf(series.name) == -1) {
-      newState.publishers[series.publisher].series.push(series.name);
+    } else if(newState.publishers[series.publisher].allSeries.indexOf(series.name) == -1) {
+      newState.publishers[series.publisher].allSeries.push(series.name);
     }
   }
 

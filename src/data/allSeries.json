@@ -1,13 +1,5 @@
 [
-  {
-    "cover": "http://www.mangarden.pl/userdata/gfx/6c424574b68c8571a3361dadf9711e01.jpg",
-    "name": "OnePiece",
-    "language": "French",
-    "publisher": "Glenat",
-    "author": "Eiichiro Oda",
-    "volumes": 73,
-    "genre": "Adventure"
-  },
+
   {
     "cover": "https://media.archonia.com/images/samples/81/04/128104_s0.jpg",
     "name": "Atack on titan",
@@ -15,6 +7,15 @@
     "publisher": "Kodansha comics US ",
     "author": "Hajime Isayama",
     "volumes": 30,
+    "genre": "Adventure"
+  },
+  {
+    "cover": "http://www.mangarden.pl/userdata/gfx/6c424574b68c8571a3361dadf9711e01.jpg",
+    "name": "One Piece",
+    "language": "French",
+    "publisher": "Glenat",
+    "author": "Eiichiro Oda",
+    "volumes": 94,
     "genre": "Adventure"
   },
   {

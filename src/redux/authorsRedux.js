@@ -1,13 +1,13 @@
 /* SELECTORS */
 
-export const getAllRegions = ({regions}) => regions;
-export const getRegion = ({regions}, regionCode) => regions[regionCode];
+export const getAllAuthors = ({authors}) => authors;
+export const getAuthor = ({authors}, authorName) => authors[authorName];
 
 /* ACTIONS */
 
 /*
 // action name creator
-const reducerName = 'regions';
+const reducerName = 'authors';
 const createActionName = name => `app/${reducerName}/${name}`;
 
 // action types

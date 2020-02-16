@@ -2,25 +2,26 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Section from '../../layout/Section/Section';
 import PageTitle from '../../common/PageTitle/PageTitle';
-import CountrySummary from '../../features/SeriesSummary/SeriesSummary';
+import SeriesSummary from '../../features/SeriesSummary/SeriesSummary';
 
-import styles from './Regions.scss';
+import styles from './Authors.scss';
 import {Grid, Row} from 'react-flexbox-grid';
 
-const Regions = ({regions, subregions, countries}) => (
+const Authors = ({authors, publishers, allSeries}) => (
 
   <Section>
     <Grid>
-      <PageTitle text='All regions' />
-      {Object.keys(regions).map(regionName => (
-        <div key={`region-${regionName}`}>
-          <h2 className={styles.name}>{regionName}</h2>
-          {regions[regionName].subregions.map(subregionName => (
-            <div key={`subregion-${subregionName}`}>
-              <h3 className={styles.subtitle}>{subregionName}</h3>
+      <PageTitle text='All authors' />
+      {console.log('Authors.js', authors, allSeries, publishers)}
+      {Object.keys(authors).map(authorName => (
+        <div key={`author-${authorName}`}>
+          <h2 className={styles.name}>{authorName}</h2>
+          {authors[authorName].publishers.map(publisherName => (
+            <div key={`publisher-${publisherName}`}>
+              <h3 className={styles.subtitle}>{publisherName}</h3>
               <Row>
-                {subregions[subregionName].countries.map(code => (
-                  <CountrySummary key={countries[code].alpha3Code} {...countries[code]} />
+                {publishers[publisherName].allSeries.map(name => (
+                  <SeriesSummary key={allSeries[name].name} {...allSeries[name]} />
                 ))}
               </Row>
             </div>
@@ -32,10 +33,10 @@ const Regions = ({regions, subregions, countries}) => (
 
 );
 
-Regions.propTypes = {
-  regions: PropTypes.objectOf(PropTypes.object),
-  subregions: PropTypes.objectOf(PropTypes.object),
-  countries: PropTypes.objectOf(PropTypes.object),
+Authors.propTypes = {
+  authors: PropTypes.object,
+  publishers: PropTypes.object,
+  allSeries: PropTypes.objectOf(PropTypes.object),
 };
 
-export default Regions;
+export default Authors;

@@ -6,10 +6,10 @@
       "author": "Eiichiro Oda"
     },
     "name": "One Piece vol.01",
-    "all-series": 94,
+    "allSeries": 94,
     "cost": "$11,180.35",
     "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723488525-T.jpg?itok=yhqE9U-I",
-    "tags": [
+    "genres": [
       "adventure", "fantasy"
     ],
     "intro": "As a child, Monkey D. Luffy was inspired to become a pirate by listening to the tales of the buccaneer 'Red-Haired' Shanks.",
@@ -22,10 +22,10 @@
       "author": "Eiichiro Oda"
     },
     "name": "One Piece vol.03",
-    "all-series": 94,
+    "allSeries": 94,
     "cost": "$11,180.35",
     "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723489904-T.jpg?itok=fnk2ar1p",
-    "tags": [
+    "genres": [
       "adventure", "fantasy"
     ],
     "intro": "Sure, lots of people say they want to be the King of the Pirates, but how many have the guts to do what it takes?",
@@ -38,10 +38,10 @@
       "author": "Eiichiro Oda"
     },
     "name": "One Piece vol.22",
-    "all-series": 94,
+    "allSeries": 94,
     "cost": "$15,310.61",
     "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723494786-T.jpg?itok=qR_ieM14",
-    "tags": [
+    "genres": [
       "adventure", "fantasy"
     ],
     "intro": "When Crocodile's evildoing is revealed, the rebellion that will destroy Alabasta just might be averted",
@@ -54,10 +54,10 @@
       "author": "Eiichiro Oda"
     },
     "name": "One Piece vol.64",
-    "all-series": 94,
+    "allSeries": 94,
     "cost": "$18,280.91",
     "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723487702-T.jpg?itok=fIg1mzqG",
-    "tags": [
+    "genres": [
       "adventure", "fantasy"
     ],
     "intro": "With their queen dead, the people of Fish-Man Island carry on her will and hope to one day achieve her dream.",
@@ -70,10 +70,10 @@
       "author": "Eiichiro Oda"
     },
     "name": "One Piece vol.69",
-    "all-series": 94,
+    "allSeries": 94,
     "cost": "$18,360.10",
     "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723498234-T.jpg?itok=qlL9jLTZ",
-    "tags": [
+    "genres": [
       "adventure", "fantasy"
     ],
     "intro": "Things are looking grim on Punk Hazard as deadly gas set off by a mad scientist envelops the island.",
@@ -86,10 +86,10 @@
       "author": "Makoto Kobayashi"
     },
     "name": "Fatcat Collection! Whats Michael? vol.01",
-    "all-series": 6,
+    "allSeries": 6,
     "cost": "$31,370.11",
     "image": "https://media.archonia.com/images/samples/61/07/356107_s0.jpg",
-    "tags": [
+    "genres": [
       "comedy"
     ],
     "intro": "Everyday cat and human interactions mingle with fantasy stories featuring the fat cat Michael and other felines.",
@@ -102,10 +102,10 @@
       "author": "Hajime Isayama"
     },
     "name": "Atack on titan vol.01",
-    "all-series": 30,
+    "allSeries": 30,
     "cost": "$15,560.80",
     "image": "https://media.archonia.com/images/samples/81/04/128104_s0.jpg",
-    "tags": [
+    "genres": [
       "adventure", "fantasy", "mystery"
     ],
     "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur feugiat gravida tortor eu tincidunt. Nunc et interdum nisi. Mauris tristique, urna ac iaculis consectetur",
@@ -118,10 +118,10 @@
       "author": "Hajime Isayama"
     },
     "name": "Atack on titan vol.08",
-    "all-series": 30,
+    "allSeries": 30,
     "cost": "$18,560.88",
     "image": "https://kodanshacomics.com/wp-content/uploads/2015/06/9781612625478-450x675.jpg",
-    "tags": [
+    "genres": [
       "adventure", "fantasy", "mystery"
     ],
     "intro": "Felis purus consequat leo, ut consequat sapien purus a nisl. Morbi tempor et magna vel blandit. Nullam fringilla velit faucibus ornare malesuada.",
@@ -134,10 +134,10 @@
       "author": "Hajime Isayama"
     },
     "name": "Atack on titan vol.20",
-    "all-series": 30,
+    "allSeries": 30,
     "cost": "$18,560.80",
     "image": "https://s3.amazonaws.com/media-us-standrad/wp-content/uploads/2016/11/12205527/9781632363091-450x675.jpg",
-    "tags": [
+    "genres": [
       "adventure", "fantasy", "mystery"
     ],
     "intro": "Sed consequat, dui eu vehicula pharetra, eros odio gravida erat, et tincidunt arcu est in tortor. Morbi mattis gravida erat at lobortis. ",
@@ -150,10 +150,10 @@
       "author": "Hiromu Arakawa"
     },
     "name": "Silver Spoon vol.04",
-    "all-series": 14,
+    "allSeries": 14,
     "cost": "$11,520.31",
     "image": "https://waneko.pl/cover/ss/4.jpg",
-    "tags": [
+    "genres": [
       "comedy", "slice of life", "romance"
     ],
     "intro": "Aenean lacus dolor, congue non velit quis, feugiat pharetra quam. Quisque finibus rutrum diam eget suscipit.",
@@ -166,10 +166,10 @@
       "author": "Hiromu Arakawa"
     },
     "name": "Silver Spoon vol.11",
-    "all-series": 14,
+    "allSeries": 14,
     "cost": "$15,560.80",
     "image": "https://waneko.pl/cover/ss/11.jpg",
-    "tags": [
+    "genres": [
       "comedy", "slice of life"
     ],
     "intro": "Ut aliquet nibh sapien, vitae aliquam mauris faucibus vel. ",
@@ -182,10 +182,10 @@
       "author": "Hiromu Arakawa"
     },
     "name": "Silver Spoon vol.01",
-    "all-series": 14,
+    "allSeries": 14,
     "cost": "$15,560.80",
     "image": "https://waneko.pl/cover/ss/1.jpg",
-    "tags": [
+    "genres": [
       "comedy", "slice of life"
     ],
     "intro": "Sed consequat, dui eu vehicula pharetra, eros odio gravida erat, et tincidunt arcu est in tortor. Morbi mattis gravida erat at lobortis. ",
@@ -198,10 +198,10 @@
       "author": "Naoki Urasawa"
     },
     "name": "Monster vol.01",
-    "all-series": 9,
+    "allSeries": 9,
     "cost": "$25,130.70",
     "image": "http://www.mangarden.pl/userdata/gfx/5d86ddc03eb34d20306756a384501fbe.jpg",
-    "tags": [
+    "genres": [
       "triller", "mystery"
     ],
     "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur feugiat gravida tortor eu tincidunt. Nunc et interdum nisi. Mauris tristique, urna ac iaculis consectetur, felis purus consequat leo, ut consequat sapien purus a nisl.",
@@ -214,10 +214,10 @@
       "author": "Naoki Urasawa"
     },
     "name": "Monster vol.08",
-    "all-series": 9,
+    "allSeries": 9,
     "cost": "$25,130.70",
     "image": "http://www.wydawnictwo.hanami.pl/monster8.jpg",
-    "tags": [
+    "genres": [
       "triller", "mystery"
     ],
     "intro": " Morbi mattis gravida erat at lobortis. Ut aliquet nibh sapien, vitae aliquam mauris faucibus vel. Aenean lacus dolor, congue non velit quis, feugiat pharetra quam. ",
@@ -229,11 +229,11 @@
       "name": "Uzumaki",
       "author": "Junji Ito"
     },
-    "name": "Uzumaki",
-    "all-series": 3,
+    "name": "Uzumaki vol.01",
+    "allSeries": 3,
     "cost": "$15.058.60",
-    "image": "https://media.archonia.com/images/samples/81/04/128104_s0.jpg",
-    "tags": [
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/88/Uzumaki.jpg",
+    "genres": [
       "horror", "dark fantasy"
     ],
     "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur feugiat gravida tortor eu tincidunt. ",
@@ -246,10 +246,10 @@
       "author": "Ryosuke Takeuchi"
     },
     "name": "Atack on titan 01",
-    "all-series": 2,
+    "allSeries": 2,
     "cost": "$14,540.08",
     "image": "https://media.archonia.com/images/samples/86/95/208695_s0.jpg",
-    "tags": [
+    "genres": [
       "science fiction", "adventure"
     ],
     "intro": "Sed consequat, dui eu vehicula pharetra, eros odio gravida erat, et tincidunt arcu est in tortor. Morbi mattis gravida erat at lobortis. Ut aliquet nibh sapien, vitae aliquam mauris faucibus vel. ",
@@ -262,10 +262,10 @@
       "author": "Kiyohiko Azuma"
     },
     "name": "Yotsuba! vol.01",
-    "all-series": 14,
+    "allSeries": 14,
     "cost": "$11,058.40",
     "image": "https://upload.wikimedia.org/wikipedia/en/0/01/Yotsuba%26-vol1cover-jp.png",
-    "tags": [
+    "genres": [
       "comedy", "slice of life"
     ],
     "intro": "Morbi tempor et magna vel blandit. Nullam fringilla velit faucibus ornare malesuada.",
@@ -278,10 +278,10 @@
       "author": "Kiyohiko Azuma"
     },
     "name": "Yotsuba! vol.04",
-    "all-series": 14,
+    "allSeries": 14,
     "cost": "$12,058.40",
     "image": "https://cdn.kdkw.jp/cover_b/312134/312134100000.jpg",
-    "tags": [
+    "genres": [
       "comedy", "slice of life"
     ],
     "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur feugiat gravida tortor eu tincidunt. ",
@@ -294,10 +294,10 @@
       "author": "Kaoru Mori"
     },
     "name": "Opowieść Panny Młodej vol.01",
-    "all-series": 11,
+    "allSeries": 11,
     "cost": "$25,086.07",
     "image": "http://www.mangarden.pl/userdata/gfx/bd3fce594fcd24e12373ed5383916aee.jpg",
-    "tags": [
+    "genres": [
       "history", "romance"
     ],
     "intro": "Quisque finibus rutrum diam eget suscipit.",

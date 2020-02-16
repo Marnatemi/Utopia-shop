@@ -8,14 +8,14 @@ import orderReducer from './orderRedux';
 // define initial state and shallow-merge initial data
 const initialState = {
   titles: titleList,
-  series: {},
-  autgors: {},
+  allSeries: {},
+  authors: {},
   publishers: {},
   genres: {},
   filters: {
     searchPhrase: '',
     genres: [],
-    duration: {
+    volumes: {
       from: 1,
       to: 14,
     },

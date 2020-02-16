@@ -1,13 +1,13 @@
 /* SELECTORS */
 
-export const getAllSubregions = ({subregions}) => subregions;
-export const getSubregion = ({subregions}, subregionCode) => subregions[subregionCode];
+export const getAllPublishers = ({publishers}) => publishers;
+export const getPublisher = ({publishers}, publishernAME) => publishers[publishernAME];
 
 /* ACTIONS */
 
 /*
 // action name creator
-const reducerName = 'subregions';
+const reducerName = 'publishers';
 const createActionName = name => `app/${reducerName}/${name}`;
 
 // action types
