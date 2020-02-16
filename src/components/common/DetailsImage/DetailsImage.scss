@@ -3,7 +3,8 @@
 .component {
   position: absolute;
   right: 0;
-  top: 0;
+  top: -20%;
+  //top: 0;
   width: 50%;
   height: 100%;
   &.left {
@@ -12,7 +13,7 @@
   }
   img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 150%;
+    object-fit: contain;
   }
 }

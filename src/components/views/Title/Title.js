@@ -33,7 +33,7 @@ const Title = ({error, id, name, image, cost, allSeries, volume, description, se
                 {HTMLParser(intro)}
               </div>
               <List variant='light'>
-                <ListItem title={`<strong>Volume:</strong> ${volume}/${allSeries} volume`} icon='calendar-alt' />
+                <ListItem title={`<strong>Volume:</strong> ${volume}/${allSeries}`} icon='calendar-alt' />
                 <ListItem title={`<strong>Price:</strong> from ${cost}`} icon='money-bill-wave' />
               </List>
             </Col>

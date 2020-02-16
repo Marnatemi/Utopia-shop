@@ -14,7 +14,7 @@ class Header extends React.Component {
             <Col md={3} lg={2}>
               <Link to='/'>
                 <div className={styles.logo}>
-                  <Icon name='compass' />
+                  <Icon name='book-reader' />
                   <span className={styles.name}>Utopia Shop</span>
                 </div>
               </Link>
