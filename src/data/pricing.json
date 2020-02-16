@@ -3,10 +3,11 @@
     "id": "format",
     "name": "Format",
     "type": "dropdown",
+    "defaultValue": "small",
     "values": [
       {"id": "small", "name": "B6 (12cm x 17cm)", "price": 0},
-      {"id": "medium", "name": "A5 (14,5cm x 20,5cm)", "price": 200},
-      {"id": "large", "name": "B5 (18,4cm x25,6cm)", "price": 300}
+      {"id": "medium", "name": "A5 (14,5cm x 20,5cm)", "price": 5},
+      {"id": "large", "name": "B5 (18,4cm x25,6cm)", "price": 10}
     ]
   },
   {

@@ -28,10 +28,10 @@ const Series = ({name, author, publisher, language, genre, volumes, titles}) => 
         <Row>
           <Col md={12} lg={4}>
             <List variant='light'>
-              <ListItem title={`<strong>Author:</strong> ${author}`} icon='map' />
-              <ListItem title={`<strong>Genre:</strong> ${genre}`} icon='city' />
-              <ListItem title={`<strong>Volumes:</strong> ${volumes}`} icon='users' />
-              <ListItem title={`<strong>Language:</strong> ${language}`} icon='money-bill-wave' />
+              <ListItem title={`<strong>Author:</strong> ${author}`} icon='user' />
+              <ListItem title={`<strong>Genre:</strong> ${genre}`} icon='theater-masks' />
+              <ListItem title={`<strong>Volumes:</strong> ${volumes}`} icon='book' />
+              <ListItem title={`<strong>Language:</strong> ${language}`} icon='language' />
             </List>
           </Col>
         </Row>

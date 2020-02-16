@@ -31,8 +31,8 @@ const SeriesSummary = ({ name, cover, titles, author, publisher, language, genre
               <Col md={5} xl={6}>
                 <div className={styles.details}>
                   <List variant='light'>
-                    <ListItem title={`<strong>Genre:</strong> ${genre}`} icon='city' />
-                    <ListItem title={`<strong>Language:</strong> ${language}`} icon='globe' />
+                    <ListItem title={`<strong>Genre:</strong> ${genre}`} icon='theater-masks' />
+                    <ListItem title={`<strong>Language:</strong> ${language}`} icon='language' />
                   </List>
                 </div>
               </Col>

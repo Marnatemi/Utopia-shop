@@ -67,9 +67,9 @@ const Title = ({error, id, name, image, cost, allSeries, volume, description, se
           <Row>
             <Col md={12} lg={4}>
               <List variant='light'>
-                <ListItem title={`<strong>Author:</strong> ${series.author}`} icon='city' />
-                <ListItem title={`<strong>Publisher:</strong> ${series.publisher} `} icon='users' />
-                <ListItem title={`<strong>Language:</strong> ${series.language}`} icon='money-bill-wave' />
+                <ListItem title={`<strong>Author:</strong> ${series.author}`} icon='user' />
+                <ListItem title={`<strong>Publisher:</strong> ${series.publisher} `} icon='book' />
+                <ListItem title={`<strong>Language:</strong> ${series.language}`} icon='language' />
               </List>
             </Col>
           </Row>
