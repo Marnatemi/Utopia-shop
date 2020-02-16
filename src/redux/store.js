@@ -15,9 +15,9 @@ const initialState = {
   filters: {
     searchPhrase: '',
     genres: [],
-    volumes: {
+    volume: {
       from: 1,
-      to: 14,
+      to: 100,
     },
   },
   order: {

@@ -14,7 +14,7 @@ import OrderForm from '../../features/OrderForm/OrderFormContainer';
 import styles from './Title.scss';
 import {Grid, Row, Col} from 'react-flexbox-grid';
 
-const Title = ({error, id, name, image, cost, allSeries, description, series, intro}) => {
+const Title = ({error, id, name, image, cost, allSeries, volume, description, series, intro}) => {
 
   if(error) return <NotFound />;
   else return (
@@ -33,7 +33,7 @@ const Title = ({error, id, name, image, cost, allSeries, description, series, in
                 {HTMLParser(intro)}
               </div>
               <List variant='light'>
-                <ListItem title={`<strong>Series:</strong> ${allSeries} volumes`} icon='calendar-alt' />
+                <ListItem title={`<strong>Volume:</strong> ${volume}/${allSeries} volume`} icon='calendar-alt' />
                 <ListItem title={`<strong>Price:</strong> from ${cost}`} icon='money-bill-wave' />
               </List>
             </Col>
@@ -84,6 +84,7 @@ Title.propTypes = {
   id: PropTypes.string,
   image: PropTypes.string,
   cost: PropTypes.string,
+  volume: PropTypes.number,
   allSeries: PropTypes.number,
   description: PropTypes.string,
   series: PropTypes.object,

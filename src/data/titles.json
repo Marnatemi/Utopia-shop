@@ -6,6 +6,7 @@
       "author": "Eiichiro Oda"
     },
     "name": "One Piece vol.01",
+    "volume": 1,
     "allSeries": 94,
     "cost": "$11,180.35",
     "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723488525-T.jpg?itok=yhqE9U-I",
@@ -22,6 +23,7 @@
       "author": "Eiichiro Oda"
     },
     "name": "One Piece vol.03",
+    "volume": 3,
     "allSeries": 94,
     "cost": "$11,180.35",
     "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723489904-T.jpg?itok=fnk2ar1p",
@@ -38,6 +40,7 @@
       "author": "Eiichiro Oda"
     },
     "name": "One Piece vol.22",
+    "volume": 22,
     "allSeries": 94,
     "cost": "$15,310.61",
     "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723494786-T.jpg?itok=qR_ieM14",
@@ -54,6 +57,7 @@
       "author": "Eiichiro Oda"
     },
     "name": "One Piece vol.64",
+    "volume": 64,
     "allSeries": 94,
     "cost": "$18,280.91",
     "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723487702-T.jpg?itok=fIg1mzqG",
@@ -70,6 +74,7 @@
       "author": "Eiichiro Oda"
     },
     "name": "One Piece vol.69",
+    "volume": 69,
     "allSeries": 94,
     "cost": "$18,360.10",
     "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723498234-T.jpg?itok=qlL9jLTZ",
@@ -86,6 +91,7 @@
       "author": "Makoto Kobayashi"
     },
     "name": "Fatcat Collection! Whats Michael? vol.01",
+    "volume": 1,
     "allSeries": 6,
     "cost": "$31,370.11",
     "image": "https://media.archonia.com/images/samples/61/07/356107_s0.jpg",
@@ -102,6 +108,7 @@
       "author": "Hajime Isayama"
     },
     "name": "Atack on titan vol.01",
+    "volume": 1,
     "allSeries": 30,
     "cost": "$15,560.80",
     "image": "https://media.archonia.com/images/samples/81/04/128104_s0.jpg",
@@ -118,6 +125,7 @@
       "author": "Hajime Isayama"
     },
     "name": "Atack on titan vol.08",
+    "volume": 8,
     "allSeries": 30,
     "cost": "$18,560.88",
     "image": "https://kodanshacomics.com/wp-content/uploads/2015/06/9781612625478-450x675.jpg",
@@ -134,6 +142,7 @@
       "author": "Hajime Isayama"
     },
     "name": "Atack on titan vol.20",
+    "volume": 20,
     "allSeries": 30,
     "cost": "$18,560.80",
     "image": "https://s3.amazonaws.com/media-us-standrad/wp-content/uploads/2016/11/12205527/9781632363091-450x675.jpg",
@@ -150,11 +159,12 @@
       "author": "Hiromu Arakawa"
     },
     "name": "Silver Spoon vol.04",
+    "volume": 4,
     "allSeries": 14,
     "cost": "$11,520.31",
     "image": "https://waneko.pl/cover/ss/4.jpg",
     "genres": [
-      "comedy", "slice of life", "romance"
+      "slice of life", "comedy", "romance"
     ],
     "intro": "Aenean lacus dolor, congue non velit quis, feugiat pharetra quam. Quisque finibus rutrum diam eget suscipit.",
     "description": "<p>Nunc pulvinar tristique massa, eget tempus purus mollis sed. Proin vulputate rutrum nibh eget eleifend. Sed massa ex, dignissim a tempus eget, euismod ac purus. Sed pulvinar vehicula molestie. Cras eget elit et mi consectetur molestie.</p>"
@@ -166,6 +176,7 @@
       "author": "Hiromu Arakawa"
     },
     "name": "Silver Spoon vol.11",
+    "volume": 11,
     "allSeries": 14,
     "cost": "$15,560.80",
     "image": "https://waneko.pl/cover/ss/11.jpg",
@@ -182,6 +193,7 @@
       "author": "Hiromu Arakawa"
     },
     "name": "Silver Spoon vol.01",
+    "volume": 1,
     "allSeries": 14,
     "cost": "$15,560.80",
     "image": "https://waneko.pl/cover/ss/1.jpg",
@@ -198,6 +210,7 @@
       "author": "Naoki Urasawa"
     },
     "name": "Monster vol.01",
+    "volume": 1,
     "allSeries": 9,
     "cost": "$25,130.70",
     "image": "http://www.mangarden.pl/userdata/gfx/5d86ddc03eb34d20306756a384501fbe.jpg",
@@ -214,6 +227,7 @@
       "author": "Naoki Urasawa"
     },
     "name": "Monster vol.08",
+    "volume": 8,
     "allSeries": 9,
     "cost": "$25,130.70",
     "image": "http://www.wydawnictwo.hanami.pl/monster8.jpg",
@@ -230,6 +244,7 @@
       "author": "Junji Ito"
     },
     "name": "Uzumaki vol.01",
+    "volume": 1,
     "allSeries": 3,
     "cost": "$15.058.60",
     "image": "https://upload.wikimedia.org/wikipedia/en/8/88/Uzumaki.jpg",
@@ -245,7 +260,8 @@
       "name": "All You Need Is Kill",
       "author": "Ryosuke Takeuchi"
     },
-    "name": "Atack on titan 01",
+    "name": "Atack on titan vol.01",
+    "volume": 1,
     "allSeries": 2,
     "cost": "$14,540.08",
     "image": "https://media.archonia.com/images/samples/86/95/208695_s0.jpg",
@@ -262,6 +278,7 @@
       "author": "Kiyohiko Azuma"
     },
     "name": "Yotsuba! vol.01",
+    "volume": 1,
     "allSeries": 14,
     "cost": "$11,058.40",
     "image": "https://upload.wikimedia.org/wikipedia/en/0/01/Yotsuba%26-vol1cover-jp.png",
@@ -278,6 +295,7 @@
       "author": "Kiyohiko Azuma"
     },
     "name": "Yotsuba! vol.04",
+    "volume": 4,
     "allSeries": 14,
     "cost": "$12,058.40",
     "image": "https://cdn.kdkw.jp/cover_b/312134/312134100000.jpg",
@@ -294,6 +312,7 @@
       "author": "Kaoru Mori"
     },
     "name": "Opowieść Panny Młodej vol.01",
+    "volume": 1,
     "allSeries": 11,
     "cost": "$25,086.07",
     "image": "http://www.mangarden.pl/userdata/gfx/bd3fce594fcd24e12373ed5383916aee.jpg",

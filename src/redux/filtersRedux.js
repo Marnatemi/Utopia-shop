@@ -2,6 +2,7 @@
 
 export const getAllFilters = ({filters}) => filters;
 
+
 /* ACTIONS */
 
 // action name creator
@@ -11,14 +12,14 @@ const createActionName = name => `app/${reducerName}/${name}`;
 // action types
 export const CHANGE_PHRASE = createActionName('CHANGE_PHRASE');
 // TODO - add other action types
-export const CHANGE_VOLUMES = createActionName('CHANGE_VOLUMES');
+export const CHANGE_VOLUME = createActionName('CHANGE_VOLUME');
 export const ADD_GENRE = createActionName('ADD_GENRE');
 export const REMOVE_GENRE = createActionName('REMOVE_GENRE');
 
 // action creators
 export const changeSearchPhrase = payload => ({ payload, type: CHANGE_PHRASE });
 // TODO - add other action creators
-export const changeVolumes = payload => ({ payload, type: CHANGE_VOLUMES });
+export const changeVolume = payload => ({ payload, type: CHANGE_VOLUME });
 export const addGenre = payload => ({ payload, type: ADD_GENRE });
 export const removeGenre = payload => ({payload, type: REMOVE_GENRE });
 
@@ -32,11 +33,11 @@ export default function reducer(statePart = [], action = {}) {
         searchPhrase: action.payload,
       };
     // TODO - handle other action types
-    case CHANGE_VOLUMES:
+    case CHANGE_VOLUME:
       return {
         ...statePart,
-        volumes:
-        { ...statePart.volumes,
+        volume:
+        { ...statePart.volume,
           ...action.payload,
         },
       };

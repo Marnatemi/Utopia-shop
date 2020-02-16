@@ -4,16 +4,16 @@ export const getAllTitles = ({titles}) => titles;
 
 export const getFilteredTitles = ({titles, filters}) => {
   let output = titles;
-
+  console.log(filters);
   // filter by search phrase
   if(filters.searchPhrase){
     const pattern = new RegExp(filters.searchPhrase, 'i');
     output = output.filter(title => pattern.test(title.name));
   }
 
-  // TO DO - filter by volumes
-  if(filters.volumes) {
-    output = output.filter(title => filters.volumes.from <= title.volumes && title.volumes <= filters.volumes.to) ;
+  // DONE - filter by volume
+  if(filters.volume) {
+    output = output.filter(title => filters.volume.from <= title.volume && title.volume <= filters.volume.to) ;
   }
 
   // DONE - filter by genres
@@ -23,9 +23,7 @@ export const getFilteredTitles = ({titles, filters}) => {
       output =  output.filter(title => title.genres.indexOf(genre) >= 0);
     }
   }
-
   // TODO - sort by cost descending (most expensive goes first)
-
   return output;
 };
 
