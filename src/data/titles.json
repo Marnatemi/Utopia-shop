@@ -8,7 +8,7 @@
     "name": "One Piece vol.01",
     "volume": 1,
     "allSeries": 94,
-    "cost": "$11,180.35",
+    "cost": "$11.35",
     "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723488525-T.jpg?itok=yhqE9U-I",
     "genres": [
       "adventure", "fantasy"
@@ -25,7 +25,7 @@
     "name": "One Piece vol.03",
     "volume": 3,
     "allSeries": 94,
-    "cost": "$11,180.35",
+    "cost": "$11.35",
     "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723489904-T.jpg?itok=fnk2ar1p",
     "genres": [
       "adventure", "fantasy"
@@ -42,7 +42,7 @@
     "name": "One Piece vol.22",
     "volume": 22,
     "allSeries": 94,
-    "cost": "$15,310.61",
+    "cost": "$15.61",
     "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723494786-T.jpg?itok=qR_ieM14",
     "genres": [
       "adventure", "fantasy"
@@ -59,7 +59,7 @@
     "name": "One Piece vol.64",
     "volume": 64,
     "allSeries": 94,
-    "cost": "$18,280.91",
+    "cost": "$18.91",
     "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723487702-T.jpg?itok=fIg1mzqG",
     "genres": [
       "adventure", "fantasy"
@@ -76,7 +76,7 @@
     "name": "One Piece vol.69",
     "volume": 69,
     "allSeries": 94,
-    "cost": "$18,360.10",
+    "cost": "$18.10",
     "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723498234-T.jpg?itok=qlL9jLTZ",
     "genres": [
       "adventure", "fantasy"
@@ -93,7 +93,7 @@
     "name": "Fatcat Collection! Whats Michael? vol.01",
     "volume": 1,
     "allSeries": 6,
-    "cost": "$31,370.11",
+    "cost": "$31.11",
     "image": "https://media.archonia.com/images/samples/61/07/356107_s0.jpg",
     "genres": [
       "comedy"
@@ -110,7 +110,7 @@
     "name": "Atack on titan vol.01",
     "volume": 1,
     "allSeries": 30,
-    "cost": "$15,560.80",
+    "cost": "$15.80",
     "image": "https://media.archonia.com/images/samples/81/04/128104_s0.jpg",
     "genres": [
       "adventure", "fantasy", "mystery"
@@ -127,7 +127,7 @@
     "name": "Atack on titan vol.08",
     "volume": 8,
     "allSeries": 30,
-    "cost": "$18,560.88",
+    "cost": "$18.88",
     "image": "https://kodanshacomics.com/wp-content/uploads/2015/06/9781612625478-450x675.jpg",
     "genres": [
       "adventure", "fantasy", "mystery"
@@ -144,7 +144,7 @@
     "name": "Atack on titan vol.20",
     "volume": 20,
     "allSeries": 30,
-    "cost": "$18,560.80",
+    "cost": "$18.80",
     "image": "https://s3.amazonaws.com/media-us-standrad/wp-content/uploads/2016/11/12205527/9781632363091-450x675.jpg",
     "genres": [
       "adventure", "fantasy", "mystery"
@@ -161,7 +161,7 @@
     "name": "Silver Spoon vol.04",
     "volume": 4,
     "allSeries": 14,
-    "cost": "$11,520.31",
+    "cost": "$11.31",
     "image": "https://waneko.pl/cover/ss/4.jpg",
     "genres": [
       "slice of life", "comedy", "romance"
@@ -178,7 +178,7 @@
     "name": "Silver Spoon vol.11",
     "volume": 11,
     "allSeries": 14,
-    "cost": "$15,560.80",
+    "cost": "$15.80",
     "image": "https://waneko.pl/cover/ss/11.jpg",
     "genres": [
       "comedy", "slice of life"
@@ -195,7 +195,7 @@
     "name": "Silver Spoon vol.01",
     "volume": 1,
     "allSeries": 14,
-    "cost": "$15,560.80",
+    "cost": "$15.80",
     "image": "https://waneko.pl/cover/ss/1.jpg",
     "genres": [
       "comedy", "slice of life"
@@ -212,7 +212,7 @@
     "name": "Monster vol.01",
     "volume": 1,
     "allSeries": 9,
-    "cost": "$25,130.70",
+    "cost": "$25.70",
     "image": "http://www.mangarden.pl/userdata/gfx/5d86ddc03eb34d20306756a384501fbe.jpg",
     "genres": [
       "triller", "mystery"
@@ -229,7 +229,7 @@
     "name": "Monster vol.08",
     "volume": 8,
     "allSeries": 9,
-    "cost": "$25,130.70",
+    "cost": "$25.70",
     "image": "http://www.wydawnictwo.hanami.pl/monster8.jpg",
     "genres": [
       "triller", "mystery"
@@ -246,7 +246,7 @@
     "name": "Uzumaki vol.01",
     "volume": 1,
     "allSeries": 3,
-    "cost": "$15.058.60",
+    "cost": "$15.60",
     "image": "https://upload.wikimedia.org/wikipedia/en/8/88/Uzumaki.jpg",
     "genres": [
       "horror", "dark fantasy"
@@ -263,7 +263,7 @@
     "name": "Atack on titan vol.01",
     "volume": 1,
     "allSeries": 2,
-    "cost": "$14,540.08",
+    "cost": "$14,08",
     "image": "https://media.archonia.com/images/samples/86/95/208695_s0.jpg",
     "genres": [
       "science fiction", "adventure"
@@ -280,7 +280,7 @@
     "name": "Yotsuba! vol.01",
     "volume": 1,
     "allSeries": 14,
-    "cost": "$11,058.40",
+    "cost": "$11.40",
     "image": "https://upload.wikimedia.org/wikipedia/en/0/01/Yotsuba%26-vol1cover-jp.png",
     "genres": [
       "comedy", "slice of life"
@@ -297,7 +297,7 @@
     "name": "Yotsuba! vol.04",
     "volume": 4,
     "allSeries": 14,
-    "cost": "$12,058.40",
+    "cost": "$12.40",
     "image": "https://cdn.kdkw.jp/cover_b/312134/312134100000.jpg",
     "genres": [
       "comedy", "slice of life"
@@ -314,7 +314,7 @@
     "name": "Opowieść Panny Młodej vol.01",
     "volume": 1,
     "allSeries": 11,
-    "cost": "$25,086.07",
+    "cost": "$25.07",
     "image": "http://www.mangarden.pl/userdata/gfx/bd3fce594fcd24e12373ed5383916aee.jpg",
     "genres": [
       "history", "romance"
