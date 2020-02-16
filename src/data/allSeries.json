@@ -1,6 +1,7 @@
 [
 
   {
+    "id": "Atack-on-titan",
     "cover": "https://media.archonia.com/images/samples/81/04/128104_s0.jpg",
     "name": "Atack on titan",
     "language": "English",
@@ -10,6 +11,7 @@
     "genre": "Adventure"
   },
   {
+    "id": "One-Piece",
     "cover": "http://www.mangarden.pl/userdata/gfx/6c424574b68c8571a3361dadf9711e01.jpg",
     "name": "One Piece",
     "language": "French",
@@ -19,6 +21,7 @@
     "genre": "Adventure"
   },
   {
+    "id": "Silver-Spoon",
     "cover": "http://www.mangarden.pl/userdata/gfx/6fffc2b477868da40e879aef42441b39.jpg",
     "name": "Silver Spoon",
     "language": "Polish",
@@ -28,6 +31,7 @@
     "genre": "Adventure"
   },
   {
+    "id": "Monster",
     "cover": "http://www.mangarden.pl/userdata/gfx/5d86ddc03eb34d20306756a384501fbe.jpg",
     "name": "Monster",
     "language": "Polish",
@@ -37,6 +41,7 @@
     "genre": "Triller"
   },
   {
+    "id": "All-You-Need-Is-Kill",
     "cover": "https://media.archonia.com/images/samples/86/95/208695_s0.jpg",
     "name": "All You Need Is Kill",
     "language": "English",
@@ -46,6 +51,7 @@
     "genre": "Science Fiction"
   },
   {
+    "id": "Death-note",
     "cover": "https://media.archonia.com/images/items/99/89/39989.jpg",
     "name": "Death note",
     "language": "French",
@@ -55,6 +61,7 @@
     "genre": "Thriller"
   },
   {
+    "id": "Uzumaki",
     "cover": "https://upload.wikimedia.org/wikipedia/en/8/88/Uzumaki.jpg",
     "name": "Uzumaki",
     "language": "Japanese",
@@ -64,6 +71,7 @@
     "genre": "Horror"
   },
   {
+    "id": "Yotsuba!",
     "cover": "https://upload.wikimedia.org/wikipedia/en/0/01/Yotsuba%26-vol1cover-jp.png",
     "name": "Yotsuba!",
     "language": "Japanese",
@@ -73,6 +81,7 @@
     "genre": "Comedy"
   },
   {
+    "id": "Opowieść-Panny-Młodej",
     "cover": "http://www.mangarden.pl/userdata/gfx/bd3fce594fcd24e12373ed5383916aee.jpg",
     "name": "Opowieść Panny Młodej",
     "language": "Polish",
@@ -82,6 +91,7 @@
     "genre": "History"
   },
   {
+    "id": "WHAT'S-MICHAEL?",
     "cover": "https://media.archonia.com/images/samples/61/07/356107_s0.jpg",
     "name": "WHAT'S MICHAEL?",
     "language": "English",
