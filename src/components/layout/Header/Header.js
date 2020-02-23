@@ -14,16 +14,16 @@ class Header extends React.Component {
             <Col md={3} lg={2}>
               <Link to='/'>
                 <div className={styles.logo}>
-                  <Icon name='compass' />
-                  <span className={styles.name}>Travel Agency</span>
+                  <Icon name='book-reader' />
+                  <span className={styles.name}>Utopia Shop</span>
                 </div>
               </Link>
             </Col>
             <Col md={6}>
               <nav>
-                <NavLink to='/trips' activeClassName='active'>Trips</NavLink>
-                <NavLink to='/countries' activeClassName='active'>Countries</NavLink>
-                <NavLink to='/regions' activeClassName='active'>Regions</NavLink>
+                <NavLink to='/titles' activeClassName='active'>Titles</NavLink>
+                <NavLink to='/allSeries' activeClassName='active'>Series</NavLink>
+                <NavLink to='/authors' activeClassName='active'>Authors</NavLink>
                 <NavLink to='/info' activeClassName='active'>Contact</NavLink>
               </nav>
             </Col>

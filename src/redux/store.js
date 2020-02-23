@@ -1,5 +1,5 @@
 import {combineReducers, createStore} from 'redux';
-import tripList from '../data/trips.json';
+import titleList from '../data/titles.json';
 
 import globalReducer from './globalRedux';
 import filtersReducer from './filtersRedux';
@@ -7,21 +7,21 @@ import orderReducer from './orderRedux';
 
 // define initial state and shallow-merge initial data
 const initialState = {
-  trips: tripList,
-  countries: {},
-  regions: {},
-  subregions: {},
-  tags: {},
+  titles: titleList,
+  allSeries: {},
+  authors: {},
+  publishers: {},
+  genres: {},
   filters: {
     searchPhrase: '',
-    tags: [],
-    duration: {
+    genres: [],
+    volume: {
       from: 1,
-      to: 14,
+      to: 100,
     },
   },
   order: {
-    trip: null,
+    title: null,
     email: '',
     options: {},
   },

@@ -6,20 +6,28 @@ import List from '../../common/List/List';
 import ListItem from '../../common/ListItem/ListItem';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
+const images=[
+  'https://i.postimg.cc/5yDv0yhb/alex-knight-v-8x-UFw-Lp-E4-unsplash.jpg',
+  'https://i.postimg.cc/brZkpkFm/joe-ciciarelli-BVNm-FNShq6-U-unsplash.jpg',
+  'https://i.postimg.cc/GmwGnBPj/paul-volkmer-s-F8-6i-SQe0-U-unsplash.jpg',
+  'https://i.postimg.cc/KvgBW7Tz/row-of-books-in-shelf-256541-1.jpg',
+  'https://i.postimg.cc/0Qc0885y/woman-sitting-on-couch-while-reading-a-book-1454906.jpg',
+];
+
 const Home = () => (
   <Section variant='has-hero'>
-    <Hero titleText='Let&apos;s explore.' imageSrc='http://uploads.kodilla.com/bootcamp/fer/13.router/image-1.jpg' />
+    <Hero titleText='Let&apos;s read.' imageSrc={images[0]} />
     <Grid>
-      <Row middle="md">
+      <Row middle='md'>
         <Col md={6}>
-          <h1 className={styles.title}>Open up to the world.</h1>
+          <h1 className={styles.title}>Make your special one.</h1>
           <p className={styles.intro}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies eros eu nisl vestibulum iaculis. Maecenas dapibus lorem quis ex ornare dignissim. Donec lobortis commodo augue, vel accumsan nunc facilisis vitae. Suspendisse bibendum congue sapien ut elementum. Nunc pellentesque, tortor et dignissim fermentum, purus mi sagittis neque, ut iaculis arcu lorem nec tellus. Integer in viverra lectus, vitae sollicitudin nulla. Sed mollis at odio eu pretium. Donec porta ligula sed diam pulvinar viverra.</p>
         </Col>
         <Col xs={12} md={5} mdOffset={1} xl={3} xlOffset={2}>
           <List variant='solid'>
-            <ListItem title='Hand-picked destinations' icon='map-marker-alt' />
-            <ListItem title='Best facilities' icon='hotel' />
-            <ListItem title='All-inclusive trips' icon='glass-martini-alt' />
+            <ListItem title='Delivery from 0$' icon='map-marker-alt' />
+            <ListItem title='Different formats' icon='compress-arrows-alt' />
+            <ListItem title='Many series' icon='list-alt' />
             <ListItem title='24/7 Support' icon='headset' />
           </List>
         </Col>

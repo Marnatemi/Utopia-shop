@@ -2,6 +2,7 @@
 
 export const getAllFilters = ({filters}) => filters;
 
+
 /* ACTIONS */
 
 // action name creator
@@ -11,16 +12,16 @@ const createActionName = name => `app/${reducerName}/${name}`;
 // action types
 export const CHANGE_PHRASE = createActionName('CHANGE_PHRASE');
 // TODO - add other action types
-export const CHANGE_DURATION = createActionName('CHANGE_DURATION');
-export const ADD_TAG = createActionName('ADD_TAG');
-export const REMOVE_TAG = createActionName('REMOVE_TAG');
+export const CHANGE_VOLUME = createActionName('CHANGE_VOLUME');
+export const ADD_GENRE = createActionName('ADD_GENRE');
+export const REMOVE_GENRE = createActionName('REMOVE_GENRE');
 
 // action creators
 export const changeSearchPhrase = payload => ({ payload, type: CHANGE_PHRASE });
 // TODO - add other action creators
-export const changeDuration = payload => ({ payload, type: CHANGE_DURATION });
-export const addTag = payload => ({ payload, type: ADD_TAG });
-export const removeTag = payload => ({payload, type: REMOVE_TAG });
+export const changeVolume = payload => ({ payload, type: CHANGE_VOLUME });
+export const addGenre = payload => ({ payload, type: ADD_GENRE });
+export const removeGenre = payload => ({payload, type: REMOVE_GENRE });
 
 
 // reducer
@@ -32,24 +33,24 @@ export default function reducer(statePart = [], action = {}) {
         searchPhrase: action.payload,
       };
     // TODO - handle other action types
-    case CHANGE_DURATION:
+    case CHANGE_VOLUME:
       return {
         ...statePart,
-        duration: 
-        { ...statePart.duration,
+        volume:
+        { ...statePart.volume,
           ...action.payload,
         },
       };
-    case ADD_TAG:
+    case ADD_GENRE:
       return {
         ...statePart,
-        tags: [...statePart.tags, action.payload],
+        genres: [...statePart.genres, action.payload],
       };
-    case REMOVE_TAG: 
+    case REMOVE_GENRE:
       return {
         ...statePart,
-        tags: [...statePart.tags.filter(tag => tag != action.payload)],
-      }; 
+        genres: [...statePart.genres.filter(genre => genre != action.payload)],
+      };
     default:
       return statePart;
   }

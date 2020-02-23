@@ -1,0 +1,344 @@
+[
+  {
+    "id": "5cc1d10130dfa407e2e54e20",
+    "series": {
+      "name": "One Piece",
+      "id": "One-Piece",
+      "author": "Eiichiro Oda"
+    },
+    "name": "One Piece vol.01",
+    "volume": 1,
+    "allSeries": 94,
+    "cost": "$11.35",
+    "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723488525-T.jpg?itok=yhqE9U-I",
+    "genres": [
+      "adventure", "fantasy"
+    ],
+    "intro": "As a child, Monkey D. Luffy was inspired to become a pirate by listening to the tales of the buccaneer 'Red-Haired' Shanks.",
+    "description": "<p> But his life changed when Luffy accidentally ate the Gum-Gum Devil Fruit and gained the power to stretch like rubber...at the cost of never being able to swim again! Years later, still vowing to become the king of the pirates, Luffy sets out on his adventure...one guy alone in a rowboat, in search of the legendary 'One Piece', said to be the greatest treasure in the world...</p>"
+  },
+  {
+    "id": "5cc1d1014c75f672e46ef6d7",
+    "series": {
+      "name": "One Piece",
+      "id": "One-Piece",
+      "author": "Eiichiro Oda"
+    },
+    "name": "One Piece vol.03",
+    "volume": 3,
+    "allSeries": 94,
+    "cost": "$11.35",
+    "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723489904-T.jpg?itok=fnk2ar1p",
+    "genres": [
+      "adventure", "fantasy"
+    ],
+    "intro": "Sure, lots of people say they want to be the King of the Pirates, but how many have the guts to do what it takes?",
+    "description": "<p>When Monkey D. Luffy first set out to sea in a leaky rowboat, he had no idea what might lie over the horizon. Now he's got a crew--sort of--in the form of swordsman Roronoa Zolo and treasure-hunting thief Nami. If he wants to prove himself on the high seas, Luffy will have to defeat the weird pirate lord Buggy the Clown. He'll have to find a map to the Grand Line, the sea route where the toughest pirates sail. And he'll have to face the Dread Captain Usopp, who claims to be a notorious pirate captain...but frankly, Usopp says a lot of things...</p>"
+  },
+  {
+    "id": "5cc1d1015f3c5f5f14384b15",
+    "series": {
+      "name": "One Piece",
+      "id": "One-Piece",
+      "author": "Eiichiro Oda"
+    },
+    "name": "One Piece vol.22",
+    "volume": 22,
+    "allSeries": 94,
+    "cost": "$15.61",
+    "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723494786-T.jpg?itok=qR_ieM14",
+    "genres": [
+      "adventure", "fantasy"
+    ],
+    "intro": "When Crocodile's evildoing is revealed, the rebellion that will destroy Alabasta just might be averted",
+    "description": "<p>But the Baroque Works will do everything in their power to make sure that doesn't happen--even if they have to kill Princess Vivi! The Straw Hats will have the fight of their lives to keep this evil Croc from getting his way!</p>"
+  },
+  {
+    "id": "5cc1d10107e2be6064ff9129",
+    "series": {
+      "name": "One Piece",
+      "id": "One-Piece",
+      "author": "Eiichiro Oda"
+    },
+    "name": "One Piece vol.64",
+    "volume": 64,
+    "allSeries": 94,
+    "cost": "$18.91",
+    "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723487702-T.jpg?itok=fIg1mzqG",
+    "genres": [
+      "adventure", "fantasy"
+    ],
+    "intro": "With their queen dead, the people of Fish-Man Island carry on her will and hope to one day achieve her dream.",
+    "description": "<p>But Hody Jones and the New Fish-Man pirates have other ideas, including ruling the kingdom themselves. The fate of Fish-Man Island will rest on Luffy’s shoulders, but will he destroy it instead?</p>"
+  },
+  {
+    "id": "5cc1d101b5c152e861b59e67",
+    "series": {
+      "name": "One Piece",
+      "id": "One-Piece",
+      "author": "Eiichiro Oda"
+    },
+    "name": "One Piece vol.69",
+    "volume": 69,
+    "allSeries": 94,
+    "cost": "$18.10",
+    "image": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723498234-T.jpg?itok=qlL9jLTZ",
+    "genres": [
+      "adventure", "fantasy"
+    ],
+    "intro": "Things are looking grim on Punk Hazard as deadly gas set off by a mad scientist envelops the island.",
+    "description": "<p>Luffy and the rest of the Straw Hats are on a mission to both take down Caesar Clown and escape to safety before the gas can get them!</p>"
+  },
+  {
+    "id": "5cc1d10181a30e85c8d9ad4a",
+    "series": {
+      "name": "WHAT'S MICHAEL?",
+      "id": "Michael",
+      "author": "Makoto Kobayashi"
+    },
+    "name": "Fatcat Collection! Whats Michael? vol.01",
+    "volume": 1,
+    "allSeries": 6,
+    "cost": "$31.11",
+    "image": "https://media.archonia.com/images/samples/61/07/356107_s0.jpg",
+    "genres": [
+      "comedy"
+    ],
+    "intro": "Everyday cat and human interactions mingle with fantasy stories featuring the fat cat Michael and other felines.",
+    "description": "<p>The manga shows Michael, an orange American Shorthair tabby cat, his feline friends, and other domesticated pets in a series of humorous episodes, although Michael is not a specific cat but rather a feline version of an everyman as he appeared in drastically different settings across chapters, even dying in some.</p>"
+  },
+  {
+    "id": "5cc1d1013091dba04d042a96",
+    "series": {
+      "name": "Attack on titan",
+      "id": "Attack-on-titan",
+      "author": "Hajime Isayama"
+    },
+    "name": "Attack on titan vol.01",
+    "volume": 1,
+    "allSeries": 30,
+    "cost": "$15.80",
+    "image": "https://media.archonia.com/images/samples/81/04/128104_s0.jpg",
+    "genres": [
+      "adventure", "fantasy", "mystery"
+    ],
+    "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur feugiat gravida tortor eu tincidunt. Nunc et interdum nisi. Mauris tristique, urna ac iaculis consectetur",
+    "description": "<p>In elementum vitae nisl eget ullamcorper. Donec vel ante rhoncus, iaculis neque nec, luctus arcu. Donec molestie blandit sem nec varius. Aenean convallis laoreet ligula</p>"
+  },
+  {
+    "id": "5cc1d101d4646f89f3e65aa9",
+    "series": {
+      "name": "Attack on titan",
+      "id": "Attack-on-titan",
+      "author": "Hajime Isayama"
+    },
+    "name": "Attack on titan vol.08",
+    "volume": 8,
+    "allSeries": 30,
+    "cost": "$18.88",
+    "image": "https://kodanshacomics.com/wp-content/uploads/2015/06/9781612625478-450x675.jpg",
+    "genres": [
+      "adventure", "fantasy", "mystery"
+    ],
+    "intro": "Felis purus consequat leo, ut consequat sapien purus a nisl. Morbi tempor et magna vel blandit. Nullam fringilla velit faucibus ornare malesuada.",
+    "description": "<p>Donec vel ante rhoncus, iaculis neque nec, luctus arcu. Donec molestie blandit sem nec varius. Aenean convallis laoreet ligula, nec consectetur urna tincidunt in. Nunc pulvinar tristique massa, eget tempus purus mollis sed. Proin vulputate rutrum nibh eget eleifend. Sed massa ex, dignissim a tempus eget, euismod ac purus. Sed pulvinar vehicula molestie. Cras eget elit et mi consectetur molestie.</p>"
+  },
+  {
+    "id": "5cc1d1016367ab269dad2216",
+    "series": {
+      "name": "Attack on titan",
+      "id": "Attack-on-titan",
+      "author": "Hajime Isayama"
+    },
+    "name": "Attack on titan vol.20",
+    "volume": 20,
+    "allSeries": 30,
+    "cost": "$18.80",
+    "image": "https://s3.amazonaws.com/media-us-standrad/wp-content/uploads/2016/11/12205527/9781632363091-450x675.jpg",
+    "genres": [
+      "adventure", "fantasy", "mystery"
+    ],
+    "intro": "Sed consequat, dui eu vehicula pharetra, eros odio gravida erat, et tincidunt arcu est in tortor. Morbi mattis gravida erat at lobortis. ",
+    "description": "<p>In elementum vitae nisl eget ullamcorper. Donec vel ante rhoncus, iaculis neque nec, luctus arcu. Donec molestie blandit sem nec varius. Aenean convallis laoreet ligula, nec consectetur urna tincidunt in. Nunc pulvinar tristique massa, eget tempus purus mollis sed. Proin vulputate rutrum nibh eget eleifend.</p>"
+  },
+  {
+    "id": "5cc1d101f5472008227158cf",
+    "series": {
+      "name": "Silver Spoon",
+      "id": "Silver-Spoon",
+      "author": "Hiromu Arakawa"
+    },
+    "name": "Silver Spoon vol.04",
+    "volume": 4,
+    "allSeries": 14,
+    "cost": "$11.31",
+    "image": "https://waneko.pl/cover/ss/4.jpg",
+    "genres": [
+      "slice of life", "comedy", "romance"
+    ],
+    "intro": "Aenean lacus dolor, congue non velit quis, feugiat pharetra quam. Quisque finibus rutrum diam eget suscipit.",
+    "description": "<p>Nunc pulvinar tristique massa, eget tempus purus mollis sed. Proin vulputate rutrum nibh eget eleifend. Sed massa ex, dignissim a tempus eget, euismod ac purus. Sed pulvinar vehicula molestie. Cras eget elit et mi consectetur molestie.</p>"
+  },
+  {
+    "id": "5cc1d101d95c0888745ef15e",
+    "series": {
+      "name": "Silver Spoon",
+      "id": "Silver-Spoon",
+      "author": "Hiromu Arakawa"
+    },
+    "name": "Silver Spoon vol.11",
+    "volume": 11,
+    "allSeries": 14,
+    "cost": "$15.80",
+    "image": "https://waneko.pl/cover/ss/11.jpg",
+    "genres": [
+      "comedy", "slice of life"
+    ],
+    "intro": "Ut aliquet nibh sapien, vitae aliquam mauris faucibus vel. ",
+    "description": "<p>In elementum vitae nisl eget ullamcorper. Donec vel ante rhoncus, iaculis neque nec, luctus arcu. Donec molestie blandit sem nec varius. Aenean convallis laoreet ligula, nec consectetur urna tincidunt in. </p>"
+  },
+  {
+    "id": "5cc1d101d1d772361a852357",
+    "series": {
+      "name": "Silver Spoon",
+      "id": "Silver-Spoon",
+      "author": "Hiromu Arakawa"
+    },
+    "name": "Silver Spoon vol.01",
+    "volume": 1,
+    "allSeries": 14,
+    "cost": "$15.80",
+    "image": "https://waneko.pl/cover/ss/1.jpg",
+    "genres": [
+      "comedy", "slice of life"
+    ],
+    "intro": "Sed consequat, dui eu vehicula pharetra, eros odio gravida erat, et tincidunt arcu est in tortor. Morbi mattis gravida erat at lobortis. ",
+    "description": "<p>Donec molestie blandit sem nec varius. Aenean convallis laoreet ligula, nec consectetur urna tincidunt in. Nunc pulvinar tristique massa, eget tempus purus mollis sed. Proin vulputate rutrum nibh eget eleifend. Sed massa ex, dignissim a tempus eget, euismod ac purus. </p>"
+  },
+  {
+    "id": "5cc1d10162f0f1af674aaf17",
+    "series": {
+      "name": "Monster",
+      "id": "Monster",
+      "author": "Naoki Urasawa"
+    },
+    "name": "Monster vol.01",
+    "volume": 1,
+    "allSeries": 9,
+    "cost": "$25.70",
+    "image": "http://www.mangarden.pl/userdata/gfx/5d86ddc03eb34d20306756a384501fbe.jpg",
+    "genres": [
+      "triller", "mystery"
+    ],
+    "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur feugiat gravida tortor eu tincidunt. Nunc et interdum nisi. Mauris tristique, urna ac iaculis consectetur, felis purus consequat leo, ut consequat sapien purus a nisl.",
+    "description": "<p> Donec vel ante rhoncus, iaculis neque nec, luctus arcu. Donec molestie blandit sem nec varius. Aenean convallis laoreet ligula, nec consectetur urna tincidunt in. Nunc pulvinar tristique massa, eget tempus purus mollis sed. Proin vulputate rutrum nibh eget eleifend. </p>"
+  },
+  {
+    "id": "5cc1d101d15304d9eaa053a4",
+    "series": {
+      "name": "Monster",
+      "id": "Monster",
+      "author": "Naoki Urasawa"
+    },
+    "name": "Monster vol.08",
+    "volume": 8,
+    "allSeries": 9,
+    "cost": "$25.70",
+    "image": "http://www.wydawnictwo.hanami.pl/monster8.jpg",
+    "genres": [
+      "triller", "mystery"
+    ],
+    "intro": " Morbi mattis gravida erat at lobortis. Ut aliquet nibh sapien, vitae aliquam mauris faucibus vel. Aenean lacus dolor, congue non velit quis, feugiat pharetra quam. ",
+    "description": "<p>Nunc pulvinar tristique massa, eget tempus purus mollis sed. Proin vulputate rutrum nibh eget eleifend. Sed massa ex, dignissim a tempus eget, euismod ac purus. Sed pulvinar vehicula molestie. Cras eget elit et mi consectetur molestie.</p>"
+  },
+  {
+    "id": "5cc1d101ed390106eadbee81",
+    "series": {
+      "name": "Uzumaki",
+      "id": "Uzumaki",
+      "author": "Junji Ito"
+    },
+    "name": "Uzumaki vol.01",
+    "volume": 1,
+    "allSeries": 3,
+    "cost": "$15.60",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/88/Uzumaki.jpg",
+    "genres": [
+      "horror", "dark fantasy"
+    ],
+    "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur feugiat gravida tortor eu tincidunt. ",
+    "description": "<p>Sed consequat, dui eu vehicula pharetra, eros odio gravida erat, et tincidunt arcu est in tortor. Morbi mattis gravida erat at lobortis. Ut aliquet nibh sapien, vitae aliquam mauris faucibus vel. Aenean lacus dolor, congue non velit quis, feugiat pharetra quam. Quisque finibus rutrum diam eget suscipit.</p>"
+  },
+  {
+    "id": "5cc1d10196640709075d389e",
+    "series": {
+      "name": "All You Need Is Kill",
+      "id": "All-You-Need-Is-Kill",
+      "author": "Ryosuke Takeuchi"
+    },
+    "name": "Attack on titan vol.01",
+    "volume": 1,
+    "allSeries": 2,
+    "cost": "$14,08",
+    "image": "https://media.archonia.com/images/samples/86/95/208695_s0.jpg",
+    "genres": [
+      "science fiction", "adventure"
+    ],
+    "intro": "Sed consequat, dui eu vehicula pharetra, eros odio gravida erat, et tincidunt arcu est in tortor. Morbi mattis gravida erat at lobortis. Ut aliquet nibh sapien, vitae aliquam mauris faucibus vel. ",
+    "description": "<p>Sed massa ex, dignissim a tempus eget, euismod ac purus. Sed pulvinar vehicula molestie. Cras eget elit et mi consectetur molestie.</p>"
+  },
+  {
+    "id": "5cc1d101bdf33c2d65ee7184",
+    "series": {
+      "name": "Yotsuba!",
+      "id": "Yotsuba!",
+      "author": "Kiyohiko Azuma"
+    },
+    "name": "Yotsuba! vol.01",
+    "volume": 1,
+    "allSeries": 14,
+    "cost": "$11.40",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/01/Yotsuba%26-vol1cover-jp.png",
+    "genres": [
+      "comedy", "slice of life"
+    ],
+    "intro": "Morbi tempor et magna vel blandit. Nullam fringilla velit faucibus ornare malesuada.",
+    "description": "<p>Nunc pulvinar tristique massa, eget tempus purus mollis sed. Proin vulputate rutrum nibh eget eleifend. Sed massa ex, dignissim a tempus eget, euismod ac purus. Sed pulvinar vehicula molestie. Cras eget elit et mi consectetur molestie.</p>"
+  },
+  {
+    "id": "5cc1d1011736309a788fd36d",
+    "series": {
+      "name": "Yotsuba!",
+      "id": "Yotsuba!",
+      "author": "Kiyohiko Azuma"
+    },
+    "name": "Yotsuba! vol.04",
+    "volume": 4,
+    "allSeries": 14,
+    "cost": "$12.40",
+    "image": "https://cdn.kdkw.jp/cover_b/312134/312134100000.jpg",
+    "genres": [
+      "comedy", "slice of life"
+    ],
+    "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur feugiat gravida tortor eu tincidunt. ",
+    "description": "<p>Aenean convallis laoreet ligula, nec consectetur urna tincidunt in. Nunc pulvinar tristique massa, eget tempus purus mollis sed. Proin vulputate rutrum nibh eget eleifend.</p>"
+  },
+  {
+    "id": "5cc1d10191ea16c92659d4d4",
+    "series": {
+      "name": "Opowieść Panny Młodej",
+      "id": "Opowiesc-Panny-Mlodej",
+      "author": "Kaoru Mori"
+    },
+    "name": "Opowieść Panny Młodej vol.01",
+    "volume": 1,
+    "allSeries": 11,
+    "cost": "$25.07",
+    "image": "http://www.mangarden.pl/userdata/gfx/bd3fce594fcd24e12373ed5383916aee.jpg",
+    "genres": [
+      "history", "romance"
+    ],
+    "intro": "Quisque finibus rutrum diam eget suscipit.",
+    "description": "<p>n elementum vitae nisl eget ullamcorper. Donec vel ante rhoncus, iaculis neque nec, luctus arcu. Donec molestie blandit sem nec varius. Aenean convallis laoreet ligula, nec consectetur urna tincidunt in. Nunc pulvinar tristique massa, eget tempus purus mollis sed. Proin vulputate rutrum nibh eget eleifend. </p>"
+  }
+]
