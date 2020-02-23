@@ -1,11 +1,12 @@
 [
 
   {
-    "id": "Atack-on-titan",
+    "id": "Attack-on-titan",
     "cover": "https://media.archonia.com/images/samples/81/04/128104_s0.jpg",
-    "name": "Atack on titan",
+    "seriesImage": "great-wall",
+    "name": "Attack on titan",
     "language": "English",
-    "publisher": "Kodansha comics US ",
+    "publisher": "Kodansha comics US",
     "author": "Hajime Isayama",
     "volumes": 30,
     "genre": "Adventure"
@@ -13,6 +14,7 @@
   {
     "id": "One-Piece",
     "cover": "https://www.glenat.com/sites/default/files/styles/couv_livre/public/images/livres/couv/9782723488525-T.jpg?itok=yhqE9U-I",
+    "seriesImage": "sea",
     "name": "One Piece",
     "language": "French",
     "publisher": "Glenat",
@@ -23,6 +25,7 @@
   {
     "id": "Silver-Spoon",
     "cover": "http://www.mangarden.pl/userdata/gfx/6fffc2b477868da40e879aef42441b39.jpg",
+    "seriesImage": "farm animals",
     "name": "Silver Spoon",
     "language": "Polish",
     "publisher": "Waneko",
@@ -33,6 +36,7 @@
   {
     "id": "Monster",
     "cover": "http://www.mangarden.pl/userdata/gfx/5d86ddc03eb34d20306756a384501fbe.jpg",
+    "seriesImage": "detective",
     "name": "Monster",
     "language": "Polish",
     "publisher": "JPF",
@@ -43,9 +47,10 @@
   {
     "id": "All-You-Need-Is-Kill",
     "cover": "https://media.archonia.com/images/samples/86/95/208695_s0.jpg",
+    "seriesImage": "robots",
     "name": "All You Need Is Kill",
     "language": "English",
-    "publisher": "Viz Comics ",
+    "publisher": "Viz Comics",
     "author": "Ryosuke Takeuchi",
     "volumes": 2,
     "genre": "Science Fiction"
@@ -53,9 +58,10 @@
   {
     "id": "Death-note",
     "cover": "https://media.archonia.com/images/items/99/89/39989.jpg",
+    "seriesImage": "notebook",
     "name": "Death note",
     "language": "French",
-    "publisher": "Kana ",
+    "publisher": "Kana",
     "author": "Takeshi Obata",
     "volumes": 12,
     "genre": "Thriller"
@@ -63,6 +69,7 @@
   {
     "id": "Uzumaki",
     "cover": "https://upload.wikimedia.org/wikipedia/en/8/88/Uzumaki.jpg",
+    "seriesImage": "circles",
     "name": "Uzumaki",
     "language": "Japanese",
     "publisher": "Shogakukan",
@@ -73,6 +80,7 @@
   {
     "id": "Yotsuba!",
     "cover": "https://upload.wikimedia.org/wikipedia/en/0/01/Yotsuba%26-vol1cover-jp.png",
+    "seriesImage": "japan",
     "name": "Yotsuba!",
     "language": "Japanese",
     "publisher": "ASCII Media Works",
@@ -81,8 +89,9 @@
     "genre": "Comedy"
   },
   {
-    "id": "Opowieść-Panny-Młodej",
+    "id": "Opowiesc-Panny-Mlodej",
     "cover": "http://www.mangarden.pl/userdata/gfx/bd3fce594fcd24e12373ed5383916aee.jpg",
+    "seriesImage": "middle east",
     "name": "Opowieść Panny Młodej",
     "language": "Polish",
     "publisher": "Studio JG",
@@ -91,11 +100,12 @@
     "genre": "History"
   },
   {
-    "id": "WHAT'S-MICHAEL?",
+    "id": "Michael",
     "cover": "https://media.archonia.com/images/samples/61/07/356107_s0.jpg",
+    "seriesImage": "feline",
     "name": "WHAT'S MICHAEL?",
     "language": "English",
-    "publisher": "Dark horse ",
+    "publisher": "Dark horse",
     "author": "Makoto Kobayashi",
     "volumes": 6,
     "genre": "Comedy"

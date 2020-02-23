@@ -9,11 +9,10 @@ import List from '../../common/List/List';
 import ListItem from '../../common/ListItem/ListItem';
 import { Row, Col } from 'react-flexbox-grid';
 
-const SeriesSummary = ({ name, cover, titles, author, publisher, language, genre }) => (
+const SeriesSummary = ({ name, cover, titles, author, publisher, language, genre, id }) => (
 
   <Col xs={12}>
-    { console.log('SS', author)}
-    <Link to={`/country/${name}`} className={styles.component}>
+    <Link to={`/series/${id}`} className={styles.component}>
       <DetailsBox variant='small light'>
         <DetailsImage variant='left'>
           <SideImage source={cover} />
@@ -47,6 +46,7 @@ const SeriesSummary = ({ name, cover, titles, author, publisher, language, genre
 
 SeriesSummary.propTypes = {
   name: PropTypes.string,
+  id: PropTypes.string,
   cover: PropTypes.string,
   titles: PropTypes.array,
   author: PropTypes.string,

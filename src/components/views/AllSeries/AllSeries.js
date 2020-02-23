@@ -10,8 +10,8 @@ const AllSeries = ({allSeries}) => (
     <Grid>
       <PageTitle text='All series' />
       <Row between="md">
-        {Object.keys(allSeries).map(name => (
-          <SeriesSummary key={name} {...allSeries[name]} />
+        {Object.keys(allSeries).map(id => (
+          <SeriesSummary key={id} {...allSeries[id]} />
         ))}
       </Row>
     </Grid>

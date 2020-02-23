@@ -3,6 +3,7 @@
     "id": "5cc1d10130dfa407e2e54e20",
     "series": {
       "name": "One Piece",
+      "id": "One-Piece",
       "author": "Eiichiro Oda"
     },
     "name": "One Piece vol.01",
@@ -20,6 +21,7 @@
     "id": "5cc1d1014c75f672e46ef6d7",
     "series": {
       "name": "One Piece",
+      "id": "One-Piece",
       "author": "Eiichiro Oda"
     },
     "name": "One Piece vol.03",
@@ -37,6 +39,7 @@
     "id": "5cc1d1015f3c5f5f14384b15",
     "series": {
       "name": "One Piece",
+      "id": "One-Piece",
       "author": "Eiichiro Oda"
     },
     "name": "One Piece vol.22",
@@ -54,6 +57,7 @@
     "id": "5cc1d10107e2be6064ff9129",
     "series": {
       "name": "One Piece",
+      "id": "One-Piece",
       "author": "Eiichiro Oda"
     },
     "name": "One Piece vol.64",
@@ -71,6 +75,7 @@
     "id": "5cc1d101b5c152e861b59e67",
     "series": {
       "name": "One Piece",
+      "id": "One-Piece",
       "author": "Eiichiro Oda"
     },
     "name": "One Piece vol.69",
@@ -88,6 +93,7 @@
     "id": "5cc1d10181a30e85c8d9ad4a",
     "series": {
       "name": "WHAT'S MICHAEL?",
+      "id": "Michael",
       "author": "Makoto Kobayashi"
     },
     "name": "Fatcat Collection! Whats Michael? vol.01",
@@ -104,10 +110,11 @@
   {
     "id": "5cc1d1013091dba04d042a96",
     "series": {
-      "name": "Atack on titan",
+      "name": "Attack on titan",
+      "id": "Attack-on-titan",
       "author": "Hajime Isayama"
     },
-    "name": "Atack on titan vol.01",
+    "name": "Attack on titan vol.01",
     "volume": 1,
     "allSeries": 30,
     "cost": "$15.80",
@@ -121,10 +128,11 @@
   {
     "id": "5cc1d101d4646f89f3e65aa9",
     "series": {
-      "name": "Atack on titan",
+      "name": "Attack on titan",
+      "id": "Attack-on-titan",
       "author": "Hajime Isayama"
     },
-    "name": "Atack on titan vol.08",
+    "name": "Attack on titan vol.08",
     "volume": 8,
     "allSeries": 30,
     "cost": "$18.88",
@@ -138,10 +146,11 @@
   {
     "id": "5cc1d1016367ab269dad2216",
     "series": {
-      "name": "Atack on titan",
+      "name": "Attack on titan",
+      "id": "Attack-on-titan",
       "author": "Hajime Isayama"
     },
-    "name": "Atack on titan vol.20",
+    "name": "Attack on titan vol.20",
     "volume": 20,
     "allSeries": 30,
     "cost": "$18.80",
@@ -156,6 +165,7 @@
     "id": "5cc1d101f5472008227158cf",
     "series": {
       "name": "Silver Spoon",
+      "id": "Silver-Spoon",
       "author": "Hiromu Arakawa"
     },
     "name": "Silver Spoon vol.04",
@@ -173,6 +183,7 @@
     "id": "5cc1d101d95c0888745ef15e",
     "series": {
       "name": "Silver Spoon",
+      "id": "Silver-Spoon",
       "author": "Hiromu Arakawa"
     },
     "name": "Silver Spoon vol.11",
@@ -190,6 +201,7 @@
     "id": "5cc1d101d1d772361a852357",
     "series": {
       "name": "Silver Spoon",
+      "id": "Silver-Spoon",
       "author": "Hiromu Arakawa"
     },
     "name": "Silver Spoon vol.01",
@@ -207,6 +219,7 @@
     "id": "5cc1d10162f0f1af674aaf17",
     "series": {
       "name": "Monster",
+      "id": "Monster",
       "author": "Naoki Urasawa"
     },
     "name": "Monster vol.01",
@@ -224,6 +237,7 @@
     "id": "5cc1d101d15304d9eaa053a4",
     "series": {
       "name": "Monster",
+      "id": "Monster",
       "author": "Naoki Urasawa"
     },
     "name": "Monster vol.08",
@@ -241,6 +255,7 @@
     "id": "5cc1d101ed390106eadbee81",
     "series": {
       "name": "Uzumaki",
+      "id": "Uzumaki",
       "author": "Junji Ito"
     },
     "name": "Uzumaki vol.01",
@@ -258,9 +273,10 @@
     "id": "5cc1d10196640709075d389e",
     "series": {
       "name": "All You Need Is Kill",
+      "id": "All-You-Need-Is-Kill",
       "author": "Ryosuke Takeuchi"
     },
-    "name": "Atack on titan vol.01",
+    "name": "Attack on titan vol.01",
     "volume": 1,
     "allSeries": 2,
     "cost": "$14,08",
@@ -275,6 +291,7 @@
     "id": "5cc1d101bdf33c2d65ee7184",
     "series": {
       "name": "Yotsuba!",
+      "id": "Yotsuba!",
       "author": "Kiyohiko Azuma"
     },
     "name": "Yotsuba! vol.01",
@@ -292,6 +309,7 @@
     "id": "5cc1d1011736309a788fd36d",
     "series": {
       "name": "Yotsuba!",
+      "id": "Yotsuba!",
       "author": "Kiyohiko Azuma"
     },
     "name": "Yotsuba! vol.04",
@@ -309,6 +327,7 @@
     "id": "5cc1d10191ea16c92659d4d4",
     "series": {
       "name": "Opowieść Panny Młodej",
+      "id": "Opowiesc-Panny-Mlodej",
       "author": "Kaoru Mori"
     },
     "name": "Opowieść Panny Młodej vol.01",

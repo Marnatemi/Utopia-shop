@@ -13,16 +13,15 @@ import TitleSummary from '../../features/TitleSummary/TitleSummary';
 
 import {Grid, Row, Col} from 'react-flexbox-grid';
 
-const Series = ({name, author, publisher, language, genre, volumes, titles}) => (
+const Series = ({name, author, language, genre, volumes, titles, seriesImage}) => (
   <Section variant='has-hero'>
-    {console.log('ROTFL',name, author, publisher, language, genre, volumes, titles )}
-    <Hero variant='small' titleText={`${name}`} imageSrc={`https://loremflickr.com/1000/600/${name},landscape/all`} />
+    <Hero variant='small' titleText={`${name}`} imageSrc={`https://loremflickr.com/1000/600/${seriesImage},landscape/all`} />
     <Grid>
       <PageTitle text={`About ${name}`} />
     </Grid>
     <DetailsBox>
-      <DetailsImage>
-        <SideImage source={`https://loremflickr.com/800/600/${name},landscape/all`} />
+      <DetailsImage variant='right'>
+        <SideImage source={`https://loremflickr.com/800/600/${seriesImage},landscape/all`} />
       </DetailsImage>
       <Grid>
         <Row>
@@ -52,10 +51,10 @@ const Series = ({name, author, publisher, language, genre, volumes, titles}) => 
 
 Series.propTypes = {
   name: PropTypes.string,
+  seriesImage: PropTypes.string,
   genre: PropTypes.string,
   language: PropTypes.string,
   author: PropTypes.string,
-  publisher: PropTypes.string,
   volumes: PropTypes.number,
   titles: PropTypes.array,
 };

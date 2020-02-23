@@ -8,8 +8,22 @@
   width: 50%;
   height: 100%;
   &.left {
+    top: 0;
     left: 0;
     width: 300px;
+    img{
+      object-fit: cover;
+      height: 100%;
+    }
+  }
+  &.right {
+    top: 0;
+    right: 0;
+    width: 300px;
+    img{
+      object-fit: cover;
+      height: 100%;
+    }
   }
   img {
     width: 100%;

@@ -6,7 +6,6 @@ import {Col} from 'react-flexbox-grid';
 
 const TitleSummary = ({id, image, name, cost, volume, allSeries, genres}) => (
   <Col xs={12} sm={6} lg={4} className={styles.column}>
-    {console.log('TS',id, image, name, cost, volume, genres)}
     <Link to={`/title/${id}`} className={styles.link}>
       <article className={styles.component}>
         <img src={image} alt={name} />

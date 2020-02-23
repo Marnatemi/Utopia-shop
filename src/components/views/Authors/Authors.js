@@ -5,24 +5,20 @@ import PageTitle from '../../common/PageTitle/PageTitle';
 import SeriesSummary from '../../features/SeriesSummary/SeriesSummary';
 
 import styles from './Authors.scss';
-import {Grid, Row} from 'react-flexbox-grid';
+import { Grid, Row } from 'react-flexbox-grid';
 
-const Authors = ({authors, publishers, allSeries}) => (
+const Authors = ({ authors, allSeries }) => (
 
   <Section>
     <Grid>
       <PageTitle text='All authors' />
-      {console.log('Authors.js', authors, allSeries, publishers)}
       {Object.keys(authors).map(authorName => (
         <div key={`author-${authorName}`}>
           <h2 className={styles.name}>{authorName}</h2>
-          {authors[authorName].publishers.map(publisherName => (
-            <div key={`publisher-${publisherName}`}>
-              <h3 className={styles.subtitle}>{publisherName}</h3>
+          {authors[authorName].allSeries.map(id => (
+            <div key={allSeries[id].id}>
               <Row>
-                {publishers[publisherName].allSeries.map(name => (
-                  <SeriesSummary key={allSeries[name].name} {...allSeries[name]} />
-                ))}
+                <SeriesSummary {...allSeries[id]} />
               </Row>
             </div>
           ))}

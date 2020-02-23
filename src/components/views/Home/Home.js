@@ -16,7 +16,7 @@ const images=[
 
 const Home = () => (
   <Section variant='has-hero'>
-    <Hero titleText='Let&apos;s read.' imageSrc={images[4]} />
+    <Hero titleText='Let&apos;s read.' imageSrc={images[0]} />
     <Grid>
       <Row middle='md'>
         <Col md={6}>

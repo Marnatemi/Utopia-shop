@@ -7,7 +7,7 @@ import { getAllSeries } from '../../../redux/allSeriesRedux';
 const mapStateToProps = state => ({
   authors: getAllAuthors(state),
   publishers: getAllPublishers(state),
-  series: getAllSeries(state),
+  allSeries: getAllSeries(state),
 });
 
 export default connect(mapStateToProps)(Authors);

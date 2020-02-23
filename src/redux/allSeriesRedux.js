@@ -1,7 +1,7 @@
 /* SELECTORS */
 
 export const getAllSeries = ({allSeries}) => allSeries;
-export const getSeriesByName = ({allSeries}, seriesName) => allSeries[seriesName];
+export const getSeriesById = ({allSeries},seriesId) => allSeries[seriesId];
 
 /* ACTIONS */
 
