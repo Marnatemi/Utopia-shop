@@ -1,4 +1,4 @@
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import Series from './Series';
 import { getSeriesById } from '../../../redux/allSeriesRedux';
 import { getTitlesForSeries } from '../../../redux/titlesRedux';

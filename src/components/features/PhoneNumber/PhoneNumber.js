@@ -11,17 +11,14 @@ const consultantNumber = {
 class PhoneNumber extends React.Component {
   constructor(){
     super();
-  
+
     setInterval( () => {this.forceUpdate();}, 1000);
   }
 
   render () {
     let {number} = this.props;
-
     const currentTime = new Date();
     const currentHour = currentTime.getUTCHours();
-    //console.log(currentHour);
-
     if( currentHour >= 8 && currentHour < 12){
       number = consultantNumber.Amanda;
     } else if ( currentHour >= 12 && currentHour < 16){
