@@ -35,7 +35,7 @@ const devConfig = () => ({
   module: {
     rules: [
       {
-        test: /\.(s*)css$/,
+        test:/\.(s*)css$/,
         use: [
           'style-loader',
           {
@@ -57,8 +57,9 @@ const prodConfig = () => ({
     rules: [
       {
         test:/\.(s*)css$/,
-        include: /flexboxgrid/,
+        // include: /flexboxgrid/,
         use:[
+          'sass-loader',
           MiniCssExtractPlugin.loader,
           {
             loader: 'css-loader',
@@ -67,7 +68,6 @@ const prodConfig = () => ({
               localIdentName: '[name]_[local]_[hash:base64:5]',
             },
           },
-          'sass-loader',
         ],
       },
     ],

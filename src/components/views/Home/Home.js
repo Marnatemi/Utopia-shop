@@ -6,17 +6,9 @@ import List from '../../common/List/List';
 import ListItem from '../../common/ListItem/ListItem';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
-const images=[
-  'https://i.postimg.cc/5yDv0yhb/alex-knight-v-8x-UFw-Lp-E4-unsplash.jpg',
-  'https://i.postimg.cc/brZkpkFm/joe-ciciarelli-BVNm-FNShq6-U-unsplash.jpg',
-  'https://i.postimg.cc/GmwGnBPj/paul-volkmer-s-F8-6i-SQe0-U-unsplash.jpg',
-  'https://i.postimg.cc/KvgBW7Tz/row-of-books-in-shelf-256541-1.jpg',
-  'https://i.postimg.cc/0Qc0885y/woman-sitting-on-couch-while-reading-a-book-1454906.jpg',
-];
-
 const Home = () => (
   <Section variant='has-hero'>
-    <Hero titleText='Let&apos;s read.' imageSrc={images[0]} />
+    <Hero titleText='Let&apos;s read.' imageSrc={'https://i.postimg.cc/5yDv0yhb/alex-knight-v-8x-UFw-Lp-E4-unsplash.jpg'} />
     <Grid>
       <Row middle='md'>
         <Col md={6}>
