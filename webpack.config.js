@@ -59,7 +59,6 @@ const prodConfig = () => ({
         test:/\.(s*)css$/,
         // include: /flexboxgrid/,
         use:[
-          'sass-loader',
           MiniCssExtractPlugin.loader,
           {
             loader: 'css-loader',
@@ -68,6 +67,7 @@ const prodConfig = () => ({
               localIdentName: '[name]_[local]_[hash:base64:5]',
             },
           },
+          'sass-loader',
         ],
       },
     ],
